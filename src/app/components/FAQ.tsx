@@ -8,7 +8,7 @@ const FAQ = () => {
     const [expandedSection, setExpandedSection] = useState(null);
 
     // Function to toggle sections
-    const toggleSection = (section) => {
+    const toggleSection = (section: any) => {
         setExpandedSection(expandedSection === section ? null : section);
     };
 
