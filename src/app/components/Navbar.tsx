@@ -1,32 +1,79 @@
-
-import React from 'react'
-import Image from 'next/image'
-import logoImage from '../../../public/logo.jpg'
-import { Button } from "@/components/ui/button"
+"use client";
+import React, { useState } from "react";
+import Image from "next/image";
+import logoImage from "../../../public/logo.jpg";
+import { Button } from "@/components/ui/button";
 
 const Navbar = () => {
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
+
+  const toggleMenu = () => {
+    setIsMenuOpen(!isMenuOpen);
+  };
+
   return (
     <>
-         <div className="navbar bg-bgcolor flex flex-col sm:flex-row items-center justify-around pt-6 px-4 sm:px-6">
-      <div className="flex-shrink-0 mr-6">
-        {/* Adding margin-right for spacing before the logo */}
-        <Image alt='Logo' src={logoImage} width={75} />
-      </div>
-      <div className="navlinks flex flex-col sm:flex-row gap-4 sm:gap-6 mt-4 sm:mt-0">
-        <div className="text-[#333333] hover:text-black cursor-pointer">Home</div>
-        <div className="text-[#81868E] hover:text-gray-700 cursor-pointer">About</div>
-        <div className="text-[#81868E] hover:text-gray-700 cursor-pointer">Pages</div>
-        <div className="text-[#81868E] hover:text-gray-700 cursor-pointer">Blog</div>
-        <div className="text-[#81868E] hover:text-gray-700 cursor-pointer">Contact</div>
-      </div>
-      <div className="mt-4 sm:mt-0 ml-6">
-        <Button className="bg-btColor text-[#FFFFFF] rounded h-8 w-32" variant="outline">
-          GET A QUOTE
-        </Button>
-      </div>
-    </div>
-    </>
-  )
-}
+      <div className="bg-bgcolor md:justify-around p-5 ">
+        <div className="navbar flex items-center justify-between px-4 py-3 sm:px-8">
+          {/* Logo */}
+          <div className="mr-6">
+            <Image alt="Logo" src={logoImage} width={75} />
+          </div>
 
-export default Navbar
+          {/* Menu icon/button for small screens */}
+          <button
+            className="text-[#333333] hover:text-black focus:outline-none block sm:hidden"
+            onClick={toggleMenu}
+          >
+            <svg
+              className="w-6 h-6"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="2"
+                d="M4 6h16M4 12h16m-7 6h7"
+              ></path>
+            </svg>
+          </button>
+
+          {/* Navigation links */}
+          <div className="navlinks md:ml-80 hidden sm:flex gap-4 items-center">
+            <div className="text-[#333333] hover:text-black cursor-pointer">Home</div>
+            <div className="text-[#81868E] hover:text-gray-700 cursor-pointer">About</div>
+            <div className="text-[#81868E] hover:text-gray-700 cursor-pointer">Pages</div>
+            <div className="text-[#81868E] hover:text-gray-700 cursor-pointer">Blog</div>
+            <div className="text-[#81868E] hover:text-gray-700 cursor-pointer">Contact</div>
+          </div>
+
+          {/* Get a Quote button */}
+          <div className="ml-auto hidden sm:block">
+            <Button className="bg-btColor text-white rounded h-8 px-4">GET A QUOTE</Button>
+          </div>
+        </div>
+
+        {/* Dropdown menu for small screens */}
+        {isMenuOpen && (
+          <div className="sm:hidden ease-in duration-1000 bg-white shadow-lg mt-2">
+            <div className="flex flex-col gap-2 py-2 px-4">
+              <div className="text-[#333333] hover:text-black cursor-pointer">Home</div>
+              <div className="text-[#81868E] hover:text-gray-700 cursor-pointer">About</div>
+              <div className="text-[#81868E] hover:text-gray-700 cursor-pointer">Pages</div>
+              <div className="text-[#81868E] hover:text-gray-700 cursor-pointer">Blog</div>
+              <div className="text-[#81868E] hover:text-gray-700 cursor-pointer">Contact</div>
+            </div>
+            <div className="flex justify-center py-2">
+              <Button className="bg-btColor text-white rounded h-8 px-4">GET A QUOTE</Button>
+            </div>
+          </div>
+        )}
+      </div>
+    </>
+  );
+};
+
+export default Navbar;

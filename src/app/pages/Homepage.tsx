@@ -17,15 +17,18 @@ import Slider from '../components/Slider'
 const Homepage = () => {
     return (
         <>
+       
         <Navbar/>
         <Slider/>
         <Images/>
         <BussinesCards/>
         <HeadingCards/>
-         <Reviews/>            
+         <Reviews/>     
          <FAQ/>
-         <Form/>
-         <Footer/>
+        <Form/> 
+          <Footer/>  
+
+        
 
         </>
     )
