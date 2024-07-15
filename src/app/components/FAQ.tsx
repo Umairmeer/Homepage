@@ -7,7 +7,11 @@ const FAQ = () => {
 
     const toggleSection = (section: string) => {
         console.log('Toggling section:', section); // Debug log
-        setExpandedSection(expandedSection === section ? null : section);
+        setExpandedSection(prev => {
+            const newSection = prev === section ? null : section;
+            console.log('Setting expandedSection to:', newSection); // Debug log
+            return newSection;
+        });
     };
 
     const variants = {
@@ -22,7 +26,7 @@ const FAQ = () => {
                     <h1 className="text-3xl text-center pt-7 mb-8">FAQ's</h1>
 
                     {/* Section 1 */}
-                    <div className="mb-2" key="section1">
+                    <div className="mb-2">
                         <button
                             className={`cursor-pointer p-3 flex justify-between items-center rounded-lg w-full text-left ${expandedSection === 'section1' ? 'bg-white' : 'bg-[#F2F7FF]'}`}
                             onClick={() => toggleSection('section1')}
@@ -50,7 +54,7 @@ const FAQ = () => {
                     </div>
 
                     {/* Section 2 */}
-                    <div className="mb-2" key="section2">
+                    <div className="mb-2">
                         <button
                             className={`cursor-pointer p-3 flex justify-between items-center rounded-lg w-full text-left ${expandedSection === 'section2' ? 'bg-white' : 'bg-[#F2F7FF]'}`}
                             onClick={() => toggleSection('section2')}
@@ -78,7 +82,7 @@ const FAQ = () => {
                     </div>
 
                     {/* Section 3 */}
-                    <div className="mb-2" key="section3">
+                    <div className="mb-2">
                         <button
                             className={`cursor-pointer p-3 flex justify-between items-center rounded-lg w-full text-left ${expandedSection === 'section3' ? 'bg-white' : 'bg-[#F2F7FF]'}`}
                             onClick={() => toggleSection('section3')}
@@ -106,7 +110,7 @@ const FAQ = () => {
                     </div>
 
                     {/* Section 4 */}
-                    <div className="mb-2" key="section4">
+                    <div className="mb-2">
                         <button
                             className={`cursor-pointer p-3 flex justify-between items-center rounded-lg w-full text-left ${expandedSection === 'section4' ? 'bg-white' : 'bg-[#F2F7FF]'}`}
                             onClick={() => toggleSection('section4')}
@@ -134,7 +138,7 @@ const FAQ = () => {
                     </div>
 
                     {/* Section 5 */}
-                    <div className="mb-2" key="section5">
+                    <div className="mb-2">
                         <button
                             className={`cursor-pointer p-3 flex justify-between items-center rounded-lg w-full text-left ${expandedSection === 'section5' ? 'bg-white' : 'bg-[#F2F7FF]'}`}
                             onClick={() => toggleSection('section5')}
