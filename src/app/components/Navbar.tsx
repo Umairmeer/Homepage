@@ -1,24 +1,44 @@
 "use client";
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import Image from "next/image";
 import { motion, AnimatePresence } from "framer-motion";
 import logoImage from "../../../public/logo.jpg";
 import { Button } from "@/components/ui/button";
+import { useRouter } from "next/navigation";
+import { usePathname } from 'next/navigation'
+
+import {
+  NavigationMenu,
+  NavigationMenuContent,
+  NavigationMenuIndicator,
+  NavigationMenuItem,
+  NavigationMenuLink,
+  NavigationMenuList,
+  NavigationMenuTrigger,
+  NavigationMenuViewport,
+} from "@/components/ui/navigation-menu"
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const router = useRouter()
 
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
   };
 
+  const pathname = usePathname()
+
+  useEffect(() => {
+    console.log(pathname)
+  }, [])
+
   return (
     <>
-      <div className="bg-bgcolor md:justify-around p-5">
-        <div className="navbar flex items-center justify-between px-4 py-3 sm:px-8">
+      <div className="bg-bgcolor md:justify-around p-5 max-w-screen-2xl m-auto">
+        <div className="navbar flex items-center py-3 px-20 mblres:justify-between mblres:px-0 ">
           {/* Logo */}
-          <div className="mr-6">
-            <Image alt="Logo" src={logoImage} width={75} />
+          <div className=" cursor-pointer">
+            <Image alt="Logo" src={logoImage} width={100} onClick={() => router.push('/')} />
           </div>
 
           {/* Menu icon/button for small screens */}
@@ -43,17 +63,64 @@ const Navbar = () => {
           </button>
 
           {/* Navigation links */}
-          <div className="navlinks md:ml-80 hidden sm:flex gap-4 items-center">
-            <div className="text-[#333333] hover:text-black cursor-pointer">Home</div>
-            <div className="text-[#81868E] hover:text-gray-700 cursor-pointer">About</div>
-            <div className="text-[#81868E] hover:text-gray-700 cursor-pointer">Pages</div>
-            <div className="text-[#81868E] hover:text-gray-700 cursor-pointer">Blog</div>
-            <div className="text-[#81868E] hover:text-gray-700 cursor-pointer">Contact</div>
+          <div className="navlinks ml-48 hidden sm:flex gap-4 items-center">
+            {/* first drop down */}
+            <NavigationMenu>
+              <NavigationMenuList>
+                <NavigationMenuItem>
+                  <NavigationMenuTrigger className="text-[#81868E]">More than managed IT</NavigationMenuTrigger>
+                  <NavigationMenuContent className="min-w-48">
+                    <div>
+                      <NavigationMenuLink><Button onClick={() => router.push('/what')} className={"w-[100%] font-medium hover:text-white hover:bg-[#0055FF] bg-bgSilver1" + (pathname === '/what' ? ' text-white bg-[#0055FF]' : '')}>What is ANC?</Button></NavigationMenuLink>
+                    </div>
+                    <div>
+                      <NavigationMenuLink><Button onClick={() => router.push('/who')} className={"w-[100%] font-medium hover:text-white hover:bg-[#0055FF] bg-bgSilver1" + (pathname === '/who' ? ' text-white bg-[#0055FF]' : '')}>Who needs ANC?</Button></NavigationMenuLink>
+                    </div>
+                  </NavigationMenuContent>
+                </NavigationMenuItem>
+              </NavigationMenuList>
+            </NavigationMenu>
+            {/* second dropdown */}
+            <NavigationMenu>
+              <NavigationMenuList>
+                <NavigationMenuItem>
+                  <NavigationMenuTrigger className="text-[#81868E]">Cortavo Plans</NavigationMenuTrigger>
+                  <NavigationMenuContent>
+                    <div>
+                      <NavigationMenuLink><Button onClick={() => router.push('/productivityPlan')} className={"w-[100%] font-medium hover:text-white hover:bg-[#0055FF] bg-bgSilver1" + (pathname === '/productivityPlan' ? ' text-white bg-[#0055FF]' : '')}>Productivity Plan</Button></NavigationMenuLink>
+                    </div>
+                    <div>
+                      <NavigationMenuLink><Button onClick={() => router.push('/connectivityPlan')} className={"w-[100%] font-medium hover:text-white hover:bg-[#0055FF] bg-bgSilver1" + (pathname === '/connectivityPlan' ? ' text-white bg-[#0055FF]' : '')}>Connectivity Plan</Button></NavigationMenuLink>
+                    </div>
+                    <div>
+                      <NavigationMenuLink><Button onClick={() => router.push('/techtilityPlan')} className={"w-[100%] font-medium hover:text-white hover:bg-[#0055FF] bg-bgSilver1" + (pathname === '/techtilityPlan' ? ' text-white bg-[#0055FF]' : '')}>Techtility Plan</Button></NavigationMenuLink>
+                    </div>
+                  </NavigationMenuContent>
+                </NavigationMenuItem>
+
+                {/* rest of the links */}
+                <NavigationMenuItem className="px-4">
+                  <NavigationMenuLink className="text-[#81868E] text-sm hover:text-gray-700 cursor-pointer">
+                    Case Studies & Blogs
+                  </NavigationMenuLink>
+                </NavigationMenuItem>
+                <NavigationMenuItem className="px-4">
+                  <NavigationMenuLink className="text-[#81868E] text-sm hover:text-gray-700 cursor-pointer">
+                    FAQs
+                  </NavigationMenuLink>
+                </NavigationMenuItem>
+                <NavigationMenuItem className="px-4">
+                  <NavigationMenuLink className="text-[#81868E] text-sm hover:text-gray-700 cursor-pointer">
+                    About Us
+                  </NavigationMenuLink>
+                </NavigationMenuItem>
+              </NavigationMenuList>
+            </NavigationMenu>
           </div>
 
           {/* Get a Quote button */}
           <div className="ml-auto hidden sm:block">
-            <Button className="bg-btColor text-white rounded h-8 px-4">GET A QUOTE</Button>
+            <Button className="bg-btColor text-white rounded px-8 py-6 hover:text-black hover:border">Let's talk</Button>
           </div>
         </div>
 
