@@ -21,37 +21,41 @@ import logo18 from '../../../public/ubank.jpeg';
 import logo19 from '../../../public/pepper.png';
 import logo20 from '../../../public/latro.jpg';
 import lineImage from '../../../public/aa.jpg';
+import { usePathname } from 'next/navigation';
 
 const Images = () => {
+  const path = usePathname()
   return (
     <>
-      <div className="flex justify-center mt-9">
-        <Image alt='' src={lineImage} />
-      </div>
+      {path === '/' ? (
+        <div className="flex justify-center mt-9">
+          <Image alt='' src={lineImage} />
+        </div>
+      ) : null}
       <div className="flex flex-wrap justify-evenly gap-4 mt-4">
-        <div className="w-16 sm:w-20 opacity-20"><Image alt='' src={logo1} /></div>
-        <div className="w-16 sm:w-20 opacity-20"><Image alt='' src={logo2} /></div>
-        <div className="w-16 sm:w-20 opacity-20"><Image alt='' src={logo3} /></div>
-        <div className="w-16 sm:w-20 opacity-20"><Image alt='' src={logo4} /></div>
-        <div className="w-16 sm:w-20 opacity-20 mt-5"><Image alt='' src={logo5} /></div>
-        <div className="w-16 sm:w-20 opacity-20"><Image alt='' src={logo6} /></div>
-        <div className="w-16 sm:w-20 opacity-20"><Image alt='' src={logo7} /></div>
-        <div className="w-16 sm:w-20 opacity-20"><Image alt='' src={logo8} /></div>
-        <div className="w-16 sm:w-20 opacity-20"><Image alt='' src={logo9} /></div>
-        <div className="w-16 sm:w-20 opacity-20"><Image alt='' src={logo10} /></div>
+        <div className="w-16 sm:w-20 opacity-20"><Image alt='' src={logo1} className=' grayscale' /></div>
+        <div className="w-16 sm:w-20 opacity-20"><Image alt='' src={logo2} className=' grayscale' /></div>
+        <div className="w-16 sm:w-20 opacity-20"><Image alt='' src={logo3} className=' grayscale' /></div>
+        <div className="w-16 sm:w-20 opacity-20"><Image alt='' src={logo4} className=' grayscale' /></div>
+        <div className="w-16 sm:w-20 opacity-20 mt-5"><Image alt='' src={logo5} className=' grayscale' /></div>
+        <div className="w-16 sm:w-20 opacity-20"><Image alt='' src={logo6} className=' grayscale' /></div>
+        <div className="w-16 sm:w-20 opacity-20"><Image alt='' src={logo7} className=' grayscale' /></div>
+        <div className="w-16 sm:w-20 opacity-20"><Image alt='' src={logo8} className=' grayscale' /></div>
+        <div className="w-16 sm:w-20 opacity-20"><Image alt='' src={logo9} className=' grayscale' /></div>
+        <div className="w-16 sm:w-20 opacity-20"><Image alt='' src={logo10} className=' grayscale' /></div>
       </div>
 
       <div className="flex flex-wrap justify-evenly gap-4 mt-8">
-        <div className="w-12 sm:w-16 mt-3 opacity-10"><Image alt='' src={logo11} /></div>
-        <div className="w-12 sm:w-16 opacity-35"><Image alt='' src={logo12} /></div>
-        <div className="w-16 sm:w-20 mt-4 opacity-25"><Image alt='' src={logo13} /></div>
-        <div className="w-12 sm:w-16 mt-3"><Image alt='' src={logo14} /></div>
-        <div className="w-16 sm:w-20 mt-3 opacity-40"><Image alt='' src={logo15} /></div>
-        <div className="w-16 sm:w-20 opacity-45"><Image alt='' src={logo16} /></div>
-        <div className="w-12 sm:w-16 mb-8 opacity-20"><Image alt='' src={logo17} /></div>
-        <div className="w-16 sm:w-20 mt-3"><Image alt='' src={logo18} /></div>
-        <div className="w-16 sm:w-20 mt-2 opacity-50"><Image alt='' src={logo19} /></div>
-        <div className="w-12 sm:w-16 mt-3 opacity-50"><Image alt='' src={logo20} /></div>
+        <div className="w-12 sm:w-16 mt-3 opacity-10"><Image alt='' src={logo11} className=' grayscale' /></div>
+        <div className="w-12 sm:w-16 opacity-35"><Image alt='' src={logo12} className=' grayscale' /></div>
+        <div className="w-16 sm:w-20 mt-4 opacity-25"><Image alt='' src={logo13} className=' grayscale' /></div>
+        <div className="w-12 sm:w-16 mt-3"><Image alt='' src={logo14} className=' grayscale' /></div>
+        <div className="w-16 sm:w-20 mt-3 opacity-40"><Image alt='' src={logo15} className=' grayscale' /></div>
+        <div className="w-16 sm:w-20 opacity-45"><Image alt='' src={logo16} className=' grayscale' /></div>
+        <div className="w-12 sm:w-16 mb-8 opacity-20"><Image alt='' src={logo17} className=' grayscale' /></div>
+        <div className="w-16 sm:w-20 mt-3"><Image alt='' src={logo18} className=' grayscale' /></div>
+        <div className="w-16 sm:w-20 mt-2 opacity-50"><Image alt='' src={logo19} className=' grayscale' /></div>
+        <div className="w-12 sm:w-16 mt-3 opacity-50"><Image alt='' src={logo20} className=' grayscale' /></div>
       </div>
     </>
   );

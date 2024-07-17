@@ -7,11 +7,13 @@ import { Button } from "@/components/ui/button";
 import { TbBrandFacebook } from "react-icons/tb";
 import { SlSocialInstagram } from "react-icons/sl";
 import { BsTwitterX } from "react-icons/bs";
+import { usePathname } from 'next/navigation';
 
 const Footer = () => {
+  const path = usePathname()
   return (
     <div className='bg-[#00194C] py-8 px-4 sm:px-8 md:px-12 lg:px-16 mt-32 lg:mt-0'> {/* Add margin-top on mobile screens */}
-      <div className='flex flex-col mt-36 lg:mt-0 sm:mt-64 pt-72 md:flex-row'>
+      <div className={'flex flex-col  lg:mt-0 sm:mt-64  md:flex-row ' + (path === '/' ? 'pt-72 mt-36' : '')}>
         {/* Logo and Social Media */}
         <div className='mb-8 md:mb-0 mt-32 lg:mt-0 md:w-1/4 text-center md:text-left'>
           <div className='flex justify-center md:justify-start mb-4'>
