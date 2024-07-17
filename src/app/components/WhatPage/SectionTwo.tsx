@@ -14,7 +14,7 @@ function SectionTwo() {
                     {/* left side */}
 
                     <div className='relative w-1/2'>
-                        <Image className='my-4 rounded-xl' alt='what is ANC' src={'/whatPage/image 1.png'} width={600} height={600} />
+                        <Image className='my-4 rounded-xl' alt='what is ANC' src={'/whatPage/image-1.png'} width={600} height={600} />
                         <div className='bg-[#0055FF] p-16 leading-snug absolute top-72 left-80 text-4xl text-white rounded-xl max-w-80'>
                             Whatever Your Size, Goals or Challenges, We Meet You There
                         </div>
