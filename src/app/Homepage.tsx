@@ -29,8 +29,6 @@ const Homepage = () => {
       <Form />
       <Footer />
 
-
-
     </>
   )
 }
