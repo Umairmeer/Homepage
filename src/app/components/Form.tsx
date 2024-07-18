@@ -70,7 +70,7 @@ const Form = () => {
                                 placeholder="Your Message"
                                 className="w-full h-24 p-2 border border-gray-300 rounded-xl"
                             ></textarea>
-                            <Button className='bg-[#031C50] text-[#FFFFFF] border-none rounded h-9 w-full lg:w-40' variant="outline">GET IN TOUCH</Button>
+                            <Button className='bg-[#031C50] text-[#FFFFFF] hover:text-white border-transparent hover:border-[#00194C] rounded h-9 w-full lg:w-40' variant="outline">GET IN TOUCH</Button>
                         </div>
                     </div>
                 </main>

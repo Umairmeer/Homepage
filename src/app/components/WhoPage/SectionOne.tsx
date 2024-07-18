@@ -16,7 +16,7 @@ function SectionOne() {
 
             {/*Manage It section two*/}
 
-            <div className='bg-[#00194C] max-w-screen-2xl m-auto flex h-[350px] mblres:flex-wrap'>
+            <div className='bg-[#00194C] max-w-screen-2xl m-auto flex h-[350px] mblres:flex-wrap '>
                 <div className='py-24 pl-20  w-1/2 my-auto'>
                     <h1 className=' text-white text-4xl font-semibold pb-2'>Complete Managed IT Solutions</h1>
                     <Image alt='what is ANC' src={'/whoPage/Group 2047.png'} width={160} height={160} />
@@ -35,17 +35,17 @@ function SectionOne() {
                 <Image alt='bg faded divs' src={'/whatPage/Rectangle 1312.png'} width={200} height={200} className=' absolute top-80 right-0' />
 
                 {/* boy's picture */}
-                <div className='relative max-w-screen-2xl'>
-                    <Image alt='bg faded divs' src={'/whoPage/Mask group.png'} width={260} height={260} className=' absolute top-30 right-0' />
+                <div className='relative max-w-screen-2xl '>
+                    <Image alt='bg faded divs' src={'/whoPage/Mask group.png'} width={260} height={260} className='absolute top-30 right-0 mblres:right-14 mblres:bottom-8 mblres:h-64 mblres:mt-28' />
                 </div>
 
                 {/* support section */}
-                <div className='max-w-3xl m-auto mt-28'>
+                <div className='max-w-3xl m-auto mt-28 mblres:mt-72'>
                     <h1 className='text-center text-4xl font-semibold my-4'>We Support</h1>
                     <p className='text-[#81868E] py-6 text-lg text-center'>Managed IT service providers (MSPs) are essential to helping businesses operate. Yet most IT providers will handle only some aspects of your IT, leaving you to fill the gaps. And often their surprise costs can leave you hesitant to call for help.</p>
                 </div>
 
-                <div className='max-w-2xl rounded-xl m-auto bg-[#0055FF] text-white py-12 px-36 text-center text-lg'>
+                <div className='max-w-2xl rounded-xl m-auto bg-[#0055FF] text-white py-12 px-36 text-center text-lg mblres:p-4'>
                     At Cortavo, we're different. We provide complete managed IT solutions, and we're the only IT provider offering a variety of services under flat, all-inclusive service plans that consolidate your IT costs
                 </div>
 

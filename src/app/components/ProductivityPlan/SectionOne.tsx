@@ -12,7 +12,7 @@ function SectionOne() {
                     <Image alt='what is ANC' src={'/whoPage/Union (1).png'} className='ml-4' width={130} height={100} />
                 </div>
                 <h1 className='text-center text-4xl font-semibold my-4'>Safeguard your productivity with cybersecurity and service desk support</h1>
-                <Button className=' bg-[#0055FF] text-white hover:text-black px-8 py-6 text-lg rounded-xl m-10'>Let’s Talk</Button>
+                <button className=' bg-[#0055FF] border text-white hover:text-black hover:border-[#0055FF] w-[120px] h-[48px] hover:bg-white  text-sm font-semibold rounded-xl m-10'>Let’s Talk</button>
             </div>
             {/* background image */}
             <div className='relative'>
