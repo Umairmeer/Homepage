@@ -28,9 +28,9 @@ function SectionTwo() {
                     <Image alt='what is ANC' src={'/whoPage/Union (1).png'} width={160} height={100} className=' absolute bottom-0 right-0' />
                 </div>
             </div>
-            <div className='flex mb-20 max-w-screen-2xl m-auto justify-center mblres:flex-col '>
+            <div className='flex mb-20 max-w-screen-2xl m-auto justify-center mblres:flex-col  '>
                 <Image alt='what is ANC' className='' src={'/whoPage/Group 2072.png'} width={620} height={620} />
-                <Image alt='what is ANC' className=' pl-20 mblres:mt-8 mblres:' src={'/whoPage/Frame 2084.png'} width={620} height={620} />
+                <Image alt='what is ANC' className=' pl-20 mblres:mt-8 mblres:pr-11 mblres:mr-8' src={'/whoPage/Frame 2084.png'} width={620} height={620} />
             </div>
 
             {/* ANC Difference */}

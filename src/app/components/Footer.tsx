@@ -12,7 +12,7 @@ import { usePathname } from 'next/navigation';
 const Footer = () => {
   const path = usePathname()
   return (
-    <div className='bg-[#00194C] py-8 px-4 sm:px-8 md:px-12 lg:px-16 mt-32 lg:mt-0'> {/* Add margin-top on mobile screens */}
+    <div className='bg-[#00194C] py-8 px-4 sm:px-8 md:px-12 lg:px-16 mt-32 lg:mt-0 '> {/* Add margin-top on mobile screens */}
       <div className={'flex flex-col  lg:mt-0 sm:mt-64  md:flex-row ' + (path === '/' ? 'pt-72 mt-36' : '')}>
         {/* Logo and Social Media */}
         <div className='mb-8 md:mb-0 mt-32 lg:mt-0 md:w-1/4 text-center md:text-left'>
@@ -70,7 +70,7 @@ const Footer = () => {
         </div>
       </div>
 
-      <div className='flex justify-center mt-14'>
+      <div className='flex justify-center mt-14 '>
         <div className='text-white text-center'>&copy; Copyright Agile Network Consultation 2024</div>
       </div>
     </div>
