@@ -2,6 +2,7 @@ import React from 'react'
 import Image from 'next/image'
 import PlanCard from '../PlanCard'
 
+
 export default function () {
   return (
     <>
@@ -26,9 +27,10 @@ export default function () {
       </div>
 
       {/* Which plan is best for you */}
-
-      <PlanCard />
-
+      <div id='planCard'>
+        <PlanCard />
+      </div>
+      
       <div className='max-w-screen-2xl m-auto flex justify-center items-center my-4'>
         <Image alt='what is ANC' src={'/whatPage/Group 2049.png'} width={350} height={350} />
       </div>

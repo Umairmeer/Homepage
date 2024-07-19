@@ -84,16 +84,19 @@ const Navbar = () => {
             <NavigationMenu>
               <NavigationMenuList>
                 <NavigationMenuItem>
-                  <NavigationMenuTrigger className="text-[#81868E]">Cortavo Plans</NavigationMenuTrigger>
+                  <NavigationMenuTrigger className="text-[#81868E]">ANC Plans</NavigationMenuTrigger>
                   <NavigationMenuContent>
                     <div>
-                      <NavigationMenuLink><Button onClick={() => router.push('/productivityPlan')} className={"w-[100%] font-medium hover:text-white hover:bg-[#0055FF] bg-bgSilver1" + (pathname === '/productivityPlan' ? ' text-white bg-[#0055FF]' : '')}>Productivity Plan</Button></NavigationMenuLink>
+                      <NavigationMenuLink><Button onClick={() => router.push('/CMOplan')} className={"w-[100%] font-medium hover:text-white hover:bg-[#0055FF] bg-bgSilver1" + (pathname === '/CMOplan' ? ' text-white bg-[#0055FF]' : '')}>Chief Marketing Officer Plan</Button></NavigationMenuLink>
                     </div>
                     <div>
-                      <NavigationMenuLink><Button onClick={() => router.push('/connectivityPlan')} className={"w-[100%] font-medium hover:text-white hover:bg-[#0055FF] bg-bgSilver1" + (pathname === '/connectivityPlan' ? ' text-white bg-[#0055FF]' : '')}>Connectivity Plan</Button></NavigationMenuLink>
+                      <NavigationMenuLink><Button onClick={() => router.push('/CFOplan')} className={"w-[100%] font-medium hover:text-white hover:bg-[#0055FF] bg-bgSilver1" + (pathname === '/CFOplan' ? ' text-white bg-[#0055FF]' : '')}>Chief Financial Officer Plan</Button></NavigationMenuLink>
                     </div>
                     <div>
-                      <NavigationMenuLink><Button onClick={() => router.push('/techtilityPlan')} className={"w-[100%] font-medium hover:text-white hover:bg-[#0055FF] bg-bgSilver1" + (pathname === '/techtilityPlan' ? ' text-white bg-[#0055FF]' : '')}>Techtility Plan</Button></NavigationMenuLink>
+                      <NavigationMenuLink><Button onClick={() => router.push('/CTOplan')} className={"w-[100%] font-medium hover:text-white hover:bg-[#0055FF] bg-bgSilver1" + (pathname === '/CTOplan' ? ' text-white bg-[#0055FF]' : '')}>Chief Technology Officer Plan</Button></NavigationMenuLink>
+                    </div>
+                    <div>
+                      <NavigationMenuLink><Button onClick={() => router.push('/CEOplan')} className={"w-[100%] font-medium hover:text-white hover:bg-[#0055FF] bg-bgSilver1" + (pathname === '/CEOplan' ? ' text-white bg-[#0055FF]' : '')}>Chief Executive Officer Plan</Button></NavigationMenuLink>
                     </div>
                   </NavigationMenuContent>
                 </NavigationMenuItem>

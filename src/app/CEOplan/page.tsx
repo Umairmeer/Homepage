@@ -1,8 +1,8 @@
 'use client'
 import React from 'react'
 import Navbar from '../components/Navbar'
-import SectionOne from '../components/ConnectivityPlan/SectionOne'
-import ConnectivityPlan from '../components/ConnectivityPlan/ConnectivityPlan'
+import SectionOne from '../components/CEOplan/SectionOne'
+import TechtilityPlan from '../components/CEOplan/CEOplan'
 import PlanCard from '../components/PlanCard'
 import Images from '../components/Images'
 import FAQ from '../components/FAQ'
@@ -13,7 +13,7 @@ function page() {
         <>
             <Navbar />
             <SectionOne />
-            <ConnectivityPlan />
+            <TechtilityPlan />
             <PlanCard/>
             <Images/>
             <FAQ/>

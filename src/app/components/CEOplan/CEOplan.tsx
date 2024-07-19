@@ -7,8 +7,8 @@ export default function () {
     return (
         <>
             <div className=' max-w-screen-2xl m-auto bg-[#F2F7FF] p-10'>
-                <h1 className=' text-4xl font-semibold text-center'>Productivity Plan</h1>
-                <p className=' text-[#909090] text-center p-10'>Get the IT help desk support and cybersecurity you need.</p>
+                <h1 className=' text-4xl font-semibold text-center'>CEO Plan</h1>
+                <p className=' text-[#909090] text-center p-10 max-w-4xl m-auto'>Executive Partnership and Business Strategy.</p>
 
                 {/* Table */}
                 <div className='flex justify-center items-center'>

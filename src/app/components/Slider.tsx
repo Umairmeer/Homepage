@@ -12,7 +12,7 @@ const Slider = () => {
             Grow Your <br /> Business More <br /> Efficiently
           </div>
           <p className="text-[#5F6266] text-sm lg:text-base mt-4 lg:mt-6">
-            Agilos helps you to convert your data into strategic assets and get <br className="hidden lg:block" /> top-notch business insights
+          ANC consultants help you drive automation and optimization through marketing, <br className="hidden lg:block" />  technology and business strategy management. 
           </p>
           <div className="Buttons flex flex-col lg:flex-row gap-3 mt-4 lg:mt-6 items-center lg:items-start justify-center lg:justify-start">
             <Button className="bg-btColor text-[#FFFFFF] rounded-xl h-9 py-6 px-6" variant="outline">

@@ -8,20 +8,20 @@ const Form = () => {
         <>
             <div className="relative flex justify-center px-4 lg:px-0">
                 <main className='bg-[#0055FF] overflow-hidden absolute top-[-160px] rounded-xl w-full max-w-6xl pb-16 flex flex-col lg:flex-row lg:justify-around lg:w-[68rem]'>
-                    <div className="relative lg:w-1/3 lg:ml-16">
+                    <div className="relative lg:w-1/3 lg:ml-1">
                         <div
                             style={{
                                 background: 'linear-gradient(to bottom, rgba(35, 67, 132, 1), rgba(0, 25, 76, 1))',
                                 padding: '20px',
-                                
+
                                 color: 'white',
                                 transform: 'skew(.5rad)',
                             }}
-                            className='linear-color  w-40 h-[27.5rem] absolute left-0 lg:left-[5rem] hidden lg:block'
+                            className='linear-color w-40 h-[27.5rem] absolute left-0 lg:left-[5rem] hidden lg:block'
                         >
                         </div>
                         <p className='text-white top-20 left-4 lg:left-16 relative text-xs lg:text-base'>NO OBLIGATIONS</p>
-                        <h1 className='text-white text-xl lg:text-2xl relative ml-4 lg:ml-16 mt-16 pt-6 lg:mt-28'>Have an ANC Agent <br />reach out to arrange a meeting.</h1>
+                        <h1 className='text-white text-xl lg:text-2xl relative ml-4 lg:ml-16 mt-16 pt-6 lg:mt-28'>Have an Agile Networking <br /> Consultant reach out to arrange a meeting.</h1>
                     </div>
 
                     <div className="form relative pr-4 lg:pr-8 lg:w-2/3 mt-16 lg:mt-0">
