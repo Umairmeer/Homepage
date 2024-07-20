@@ -190,7 +190,7 @@ function PlanCard() {
 
             {/* Card Heading and card */}
             <h1 className=' text-4xl font-semibold mblres:text-center'>Which plan is best for you?</h1>
-            <div className='px-32 py-10 border-2  border-black mt-10 rounded-[6px] mblres: w-[100%] mblres:px-16'>
+            <div className='px-32 py-10 border-2  border-black mt-10 rounded-[6px] mblres:w-[100%] mblres:px-16'>
                 {screenNum === 1 ? AmountOfUsers() : null}
                 {screenNum === 2 ? Requirements() : null}
                 {screenNum === 3 ? YourPlan() : null}
