@@ -8,7 +8,7 @@ export default function () {
         <>
             <div className=' max-w-screen-2xl m-auto bg-[#F2F7FF] p-10'>
                 <h1 className=' text-4xl font-semibold text-center'>CEO Plan</h1>
-                <p className=' text-[#909090] text-center p-10 max-w-4xl m-auto'>Executive Partnership and Business Strategy.</p>
+                <p className=' text-[#909090] text-center p-10 max-w-4xl m-auto'>Executive Partnership & Business Strategy.</p>
 
                 {/* Table */}
                 <div className='flex justify-center items-center'>

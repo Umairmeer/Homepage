@@ -102,19 +102,19 @@ const Navbar = () => {
                 </NavigationMenuItem>
 
                 {/* rest of the links */}
-                <NavigationMenuItem className="px-4">
+                {/* <NavigationMenuItem className="px-4">
                   <NavigationMenuLink className="text-[#81868E]  text-sm hover:text-gray-700 cursor-pointer">
                     Case Studies & Blogs
                   </NavigationMenuLink>
-                </NavigationMenuItem>
+                </NavigationMenuItem> */}
                 <NavigationMenuItem className="px-4">
                   <NavigationMenuLink className="text-[#81868E] text-sm hover:text-gray-700 cursor-pointer">
-                    FAQs
+                    <a href="/#FAQ" className=" scroll-smooth">FAQs</a>
                   </NavigationMenuLink>
                 </NavigationMenuItem>
                 <NavigationMenuItem className="px-4">
                   <NavigationMenuLink className="text-[#81868E] text-sm hover:text-gray-700 cursor-pointer">
-                    About Us
+                    <a href="#contact" className=" scroll-smooth">About Us</a>
                   </NavigationMenuLink>
                 </NavigationMenuItem>
               </NavigationMenuList>
@@ -145,21 +145,21 @@ const Navbar = () => {
                   transition={{ duration: 0.2 }}
                   className="text-[#333333] hover:text-black cursor-pointer"
                 >
-                 <NavigationMenu>
-              <NavigationMenuList>
-                <NavigationMenuItem>
-                  <p className="text-[#81868E]">More than managed IT</p>
-                 
-                    <div>
-                      <p onClick={() => router.push('/what')} className={"w-[100%] ml-5 px-2 py-2 my-3 font-medium " + (pathname === '/what' ? ' text-white bg-[#0055FF]' : '')}>What is ANC?</p>
-                    </div>
-                    <div>
-                      <p onClick={() => router.push('/who')} className={"w-[100%] ml-5 px-2 py-2 my-3 font-medium " + (pathname === '/who' ? ' text-white bg-[#0055FF]' : '')}>Who needs ANC?</p>
-                    </div>
-                  
-                </NavigationMenuItem>
-              </NavigationMenuList>
-            </NavigationMenu>
+                  <NavigationMenu>
+                    <NavigationMenuList>
+                      <NavigationMenuItem>
+                        <p className="text-[#81868E]">More than managed IT</p>
+
+                        <div>
+                          <p onClick={() => router.push('/what')} className={"w-[100%] ml-5 px-2 py-2 my-3 font-medium " + (pathname === '/what' ? ' text-white bg-[#0055FF]' : '')}>What is ANC?</p>
+                        </div>
+                        <div>
+                          <p onClick={() => router.push('/who')} className={"w-[100%] ml-5 px-2 py-2 my-3 font-medium " + (pathname === '/who' ? ' text-white bg-[#0055FF]' : '')}>Who needs ANC?</p>
+                        </div>
+
+                      </NavigationMenuItem>
+                    </NavigationMenuList>
+                  </NavigationMenu>
                 </motion.div>
                 <motion.div
                   initial={{ opacity: 0, y: -20 }}
@@ -168,30 +168,30 @@ const Navbar = () => {
                   transition={{ duration: 0.2, delay: 0.1 }}
                   className="text-[#81868E] hover:text-gray-700 cursor-pointer"
                 >
-                  
+
                   <p className="text-[#81868E]">Cortavo Plans</p>
-                  
-                    <div>
-                      <p onClick={() => router.push('/productivityPlan')} className={"w-[100%] ml-5 my-3 font-medium   px-2 py-2 " + (pathname === '/productivityPlan' ? ' bg-[#0055FF] text-white' : '')}>Productivity Plan</p>
-                    </div>
-                    <div>
-                      <p onClick={() => router.push('/connectivityPlan')} className={"w-[100%] font-medium ml-5 my-3    px-2 py-2" + (pathname === '/connectivityPlan' ? ' bg-[#0055FF] text-white' : '')}>Connectivity Plan</p>
-                    </div>
-                    <div>
-                      <p onClick={() => router.push('/techtilityPlan')} className={"w-[100%] font-medium ml-5 my-3   px-2 py-2 " + (pathname === '/techtilityPlan' ? ' bg-[#0055FF] text-white' : '')}>Techtility Plan</p>
-                    </div>
-                  
-                
+
+                  <div>
+                    <p onClick={() => router.push('/productivityPlan')} className={"w-[100%] ml-5 my-3 font-medium   px-2 py-2 " + (pathname === '/productivityPlan' ? ' bg-[#0055FF] text-white' : '')}>Productivity Plan</p>
+                  </div>
+                  <div>
+                    <p onClick={() => router.push('/connectivityPlan')} className={"w-[100%] font-medium ml-5 my-3    px-2 py-2" + (pathname === '/connectivityPlan' ? ' bg-[#0055FF] text-white' : '')}>Connectivity Plan</p>
+                  </div>
+                  <div>
+                    <p onClick={() => router.push('/techtilityPlan')} className={"w-[100%] font-medium ml-5 my-3   px-2 py-2 " + (pathname === '/techtilityPlan' ? ' bg-[#0055FF] text-white' : '')}>Techtility Plan</p>
+                  </div>
+
+
                 </motion.div>
-                <motion.div
+                {/* <motion.div
                   initial={{ opacity: 0, y: -20 }}
                   animate={{ opacity: 1, y: 0 }}
                   exit={{ opacity: 0, y: -20 }}
                   transition={{ duration: 0.2, delay: 0.2 }}
                   className="text-[#81868E] hover:text-gray-700 cursor-pointer"
                 >
-                 Case Studies & Blogs
-                </motion.div>
+                  Case Studies & Blogs
+                </motion.div> */}
                 <motion.div
                   initial={{ opacity: 0, y: -20 }}
                   animate={{ opacity: 1, y: 0 }}
@@ -199,7 +199,7 @@ const Navbar = () => {
                   transition={{ duration: 0.2, delay: 0.3 }}
                   className="text-[#81868E] hover:text-gray-700 cursor-pointer"
                 >
-                  FAQs
+                  <a href="/#FAQ" className=" scroll-smooth">FAQs</a>
                 </motion.div>
                 <motion.div
                   initial={{ opacity: 0, y: -20 }}
@@ -208,7 +208,7 @@ const Navbar = () => {
                   transition={{ duration: 0.2, delay: 0.4 }}
                   className="text-[#81868E] hover:text-gray-700 cursor-pointer"
                 >
-                  About us
+                  <a href="#contact" className=" scroll-smooth">About Us</a>
                 </motion.div>
               </div>
               <div className="flex justify-center py-2">

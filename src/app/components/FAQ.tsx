@@ -25,12 +25,12 @@ const FAQ = () => {
 
     return (
         <>
-            <main className='Accordion relative pb-64 flex justify-center bg-[#F2F7FF] px-4 md:px-6 lg:px-8'>
+            <main id='FAQ' className='Accordion relative pb-64 flex justify-center bg-[#F2F7FF] px-4 md:px-6 lg:px-8'>
                 <div className="w-full max-w-[38rem] bg-yell mx-auto">
                     <h1 className="text-3xl text-center pt-7 mb-8">FAQ's</h1>
 
                     {/* Section 1 */}
-                    <div className="mb-2">
+                    <div className="mb-2" >
                         <div
                             className={`cursor-pointer p-3 flex justify-between items-center rounded-lg w-full text-left ${expandedSection === 'section1' ? 'bg-white' : 'bg-[#F2F7FF]'}`}
                             onClick={() => toggleSection('section1')}

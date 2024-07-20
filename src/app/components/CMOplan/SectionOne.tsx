@@ -11,7 +11,7 @@ function SectionOne() {
                     <p className='uppercase text-sm font-semibold m-1'>CMO Plan</p>
                     <Image alt='what is ANC' src={'/whoPage/Union (1).png'}  width={80} height={80} />
                 </div>
-                <h1 className='text-center text-4xl font-semibold my-4'>Safeguard your productivity and marketing with cybersecurity and custom service desk solutions</h1>
+                <h1 className='text-center text-4xl font-semibold my-4'>Comprehensive Marketing Solutions.</h1>
                 <Button className=' bg-[#0055FF] text-white hover:text-black px-8 py-6 text-lg rounded-xl m-10'>Let’s Talk</Button>
             </div>
             {/* background image */}
