@@ -169,16 +169,19 @@ const Navbar = () => {
                   className="text-[#81868E] hover:text-gray-700 cursor-pointer"
                 >
 
-                  <p className="text-[#81868E]">Cortavo Plans</p>
+                  <p className="text-[#81868E]">ANC Plans</p>
 
                   <div>
-                    <p onClick={() => router.push('/productivityPlan')} className={"w-[100%] ml-5 my-3 font-medium   px-2 py-2 " + (pathname === '/productivityPlan' ? ' bg-[#0055FF] text-white' : '')}>Productivity Plan</p>
+                    <p onClick={() => router.push('/CMOplan')} className={"w-[100%] ml-5 my-3 font-medium   px-2 py-2 " + (pathname === '/CMOplan' ? ' bg-[#0055FF] text-white' : '')}>Marketing Plan</p>
                   </div>
                   <div>
-                    <p onClick={() => router.push('/connectivityPlan')} className={"w-[100%] font-medium ml-5 my-3    px-2 py-2" + (pathname === '/connectivityPlan' ? ' bg-[#0055FF] text-white' : '')}>Connectivity Plan</p>
+                    <p onClick={() => router.push('/CFOplan')} className={"w-[100%] font-medium ml-5 my-3    px-2 py-2" + (pathname === '/CFOplan' ? ' bg-[#0055FF] text-white' : '')}>Ad Hoc services</p>
                   </div>
                   <div>
-                    <p onClick={() => router.push('/techtilityPlan')} className={"w-[100%] font-medium ml-5 my-3   px-2 py-2 " + (pathname === '/techtilityPlan' ? ' bg-[#0055FF] text-white' : '')}>Techtility Plan</p>
+                    <p onClick={() => router.push('/CTOplan')} className={"w-[100%] font-medium ml-5 my-3   px-2 py-2 " + (pathname === '/CTOplan' ? ' bg-[#0055FF] text-white' : '')}>Technology Plan</p>
+                  </div>
+                  <div>
+                    <p onClick={() => router.push('/CTOplan')} className={"w-[100%] font-medium ml-5 my-3   px-2 py-2 " + (pathname === '/CTOplan' ? ' bg-[#0055FF] text-white' : '')}>Full Solution Plan</p>
                   </div>
 
 
