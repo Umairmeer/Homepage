@@ -61,10 +61,10 @@ function PlanCard() {
             <>
                 <img alt='header' src={'/whatPage/Group 16.png'} width={600} />
                 <div className='flex flex-col justify-center items-center py-10'>
-                    <p className='font-semibold text-lg text-[#00194C] text-center'>With Cortavo, all of our plans come with 24/7 IT Support, Cybersecurity, and Software.</p>
+                    <p className='font-semibold text-lg text-[#00194C] text-center'>With ANC, all of our plans come with 24/7 support across all corporate functions.</p>
                     <div className="flex items-center my-6">
                         <p className=" text-[15px] w-96 text-sm text-[#5F6266]">
-                            Do you need office high speed internet, VPN <br />firewall, wireless access points, and cloud storage?
+                            Do you already have staff in place to manage your IT Systems?
                         </p>
                         <Input type='radio' defaultChecked={true} id='software-support-yes' name='software-support' className='w-4 m-2' />
                         <label htmlFor="software-support-yes" className='text-[#5F6266] text-sm'>Yes</label>
@@ -74,13 +74,23 @@ function PlanCard() {
                     </div>
                     <div className="flex items-center mb-6">
                         <p className=" text-[15px] w-96 text-sm text-[#5F6266]">
-                            Do you need desktops and laptops?
+                            Do you already have staff in place to manage your Marketing?
                         </p>
                         <Input type='radio' defaultChecked={true} id='hardware-support-yes' name='hardware-support' className='w-4 m-2' />
                         <label htmlFor="hardware-support-yes" className='text-[#5F6266] text-sm'>Yes</label>
                         <div className='m-4'></div>
                         <Input type='radio' id='hardware-support-no' name='hardware-support' className='w-4 m-2' />
                         <label htmlFor="hardware-support-no" className='text-[#5F6266] text-sm'>No</label>
+                    </div>
+                    <div className="flex items-center mb-6">
+                        <p className=" text-[15px] w-96 text-sm text-[#5F6266]">
+                            Do you already have staff in place to manage your Business/ Administrative needs?
+                        </p>
+                        <Input type='radio' defaultChecked={true} id='adminNeeds-yes' name='adminNeeds' className='w-4 m-2' />
+                        <label htmlFor="adminNeeds-yes" className='text-[#5F6266] text-sm'>Yes</label>
+                        <div className='m-4'></div>
+                        <Input type='radio' id='adminNeeds-no' name='adminNeeds' className='w-4 m-2' />
+                        <label htmlFor="adminNeeds-no" className='text-[#5F6266] text-sm'>No</label>
                     </div>
                 </div>
             </>
@@ -114,13 +124,10 @@ function PlanCard() {
             <>
                 <img alt='header' src={'/whatPage/Group 16 (2).png'} width={600} />
                 <div className='flex flex-col justify-center items-center py-10'>
-                    <p className='font-semibold text-lg text-[#00194C] text-center'>Connectivity Plan</p>
+                    <p className='font-semibold text-lg text-[#00194C] text-center'>Your Plan</p>
                     <div className="my-4">
                         <p className=" text-[15px] text-center text-sm text-[#5F6266]">
                             Based on your needs we recommend the Cortavo Connectivity Plan.
-                        </p>
-                        <p className=" text-[15px] text-center text-sm text-[#5F6266] font-semibold">
-                            Please note: This plan requires 10 or more users.
                         </p>
                     </div>
                     <div className="my-4">
@@ -153,10 +160,10 @@ function PlanCard() {
             <>
                 <img alt='header' src={'/whatPage/Group 16 (2).png'} width={600} />
                 <div className='flex flex-col justify-center items-center py-10'>
-                    <p className='font-semibold text-lg text-[#00194C] text-center'>Cortavo Connectivity Plan</p>
+                    <p className='font-semibold text-lg text-[#00194C] text-center'>Hybrid Plan</p>
                     <div className="flex items-center my-4">
                         <p className=" text-[15px] text-center text-sm text-[#5F6266] my-4">
-                            We estimate your Cortavo Connectivity Plan will be:
+                            We estimate your Hybrid Plan will be:
                         </p>
                     </div>
                     <div className="flex justify-center items-center flex-col mb-6 w-96">

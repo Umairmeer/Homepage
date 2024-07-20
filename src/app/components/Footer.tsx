@@ -7,6 +7,7 @@ import { Button } from "@/components/ui/button";
 import { TbBrandFacebook } from "react-icons/tb";
 import { SlSocialInstagram } from "react-icons/sl";
 import { BsTwitterX } from "react-icons/bs";
+import { FaLinkedinIn } from "react-icons/fa";
 import { usePathname } from 'next/navigation';
 
 const Footer = () => {
@@ -21,14 +22,14 @@ const Footer = () => {
           </div>
 
           <div className='flex justify-center md:justify-start gap-3'>
-            <div className='bg-bt2 text-white p-2 rounded-full'>
+            <div className='bg-bt2 cursor-pointer text-white p-2 rounded-full'>
               <TbBrandFacebook />
             </div>
-            <div className='bg-bt2 text-white p-2 rounded-full'>
+            <div className='bg-bt2 cursor-pointer text-white p-2 rounded-full'>
               <SlSocialInstagram />
             </div>
-            <div className='bg-bt2 text-white p-2 rounded-full'>
-              <BsTwitterX />
+            <div className='bg-bt2 cursor-pointer text-white p-2 rounded-full'>
+              <FaLinkedinIn />
             </div>
           </div>
         </div>
@@ -47,9 +48,9 @@ const Footer = () => {
         <div className='mb-8 md:mb-0 md:w-1/4 text-center md:text-left'>
           <div className='text-white mb-4 text-lg'>Contact Us</div>
           <div className='text-white'>
-            <div className='mb-2'>anc@gmail.com</div>
-            <div className='mb-2'>+1808 08 08</div>
-            <div className='mb-2'>123 12th St, ABC, USA</div>
+            <div className='mb-2'>Info@agilenetworkingllc.com  </div>
+            <div className='mb-2'>+404 980 9340 </div>
+            <div className='mb-2'>North America ,United States</div>
           </div>
         </div>
 
