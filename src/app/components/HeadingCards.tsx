@@ -41,7 +41,7 @@ const HeadingCards = () => {
         </div>
 
         <div className='flex mt-8 justify-center pb-14'>
-          <Button className='bg-bt2 text-[#FFFFFF] border-none rounded h-9 w-40' variant="outline" ><a href="/what#planCard">LET'S GET STARTED</a></Button>
+          <Button className='bg-bt2 hover:text-white  text-[#FFFFFF] hover:border-[#0055FF] border-transparent rounded h-9 w-40' variant="outline" ><a href="/what#planCard">LET'S GET STARTED</a></Button>
         </div>
       </main>
     </>

@@ -27,7 +27,7 @@ function PlanCard() {
             <>
                 <img alt='header' src={'/whatPage/Group 10 (1).png'} width={600} />
                 <div className='flex flex-col justify-center items-center py-10'>
-                    <p className='font-semibold text-lg text-[#00194C]'>How many users do you have in your workplace?</p>
+                    <p className='font-semibold text-lg mblres:text-3xl text-[#00194C]'>How many users do you have in your workplace?</p>
                     <MultiRangeSlider
                         min={0}
                         max={100}
@@ -45,8 +45,8 @@ function PlanCard() {
                             handleInput(e);
                         }}
                     />
-                    <div className="flex items-center">
-                        <Input type='checkbox' id='airplane-mode' className='w-4 m-4' />
+                    <div className="flex items-center ">
+                        <Input type='checkbox'  id='airplane-mode' className='w-4 m-4 ' />
                         <label className=" text-[15px] font-semibold pr-[15px] mt-1" htmlFor="airplane-mode">
                             Do you have more than 100 users?
                         </label>
@@ -60,9 +60,9 @@ function PlanCard() {
         return (
             <>
                 <img alt='header' src={'/whatPage/Group 16.png'} width={600} />
-                <div className='flex flex-col justify-center items-center py-10'>
+                <div className='flex flex-col justify-center items-center py-10 mblres:w-[100%]'>
                     <p className='font-semibold text-lg text-[#00194C] text-center'>With Cortavo, all of our plans come with 24/7 IT Support, Cybersecurity, and Software.</p>
-                    <div className="flex items-center my-6">
+                    <div className="flex items-center my-6 mblres:w-[100%] mblres:text-sm">
                         <p className=" text-[15px] w-96 text-sm text-[#5F6266]">
                             Do you need office high speed internet, VPN <br />firewall, wireless access points, and cloud storage?
                         </p>
@@ -72,7 +72,7 @@ function PlanCard() {
                         <Input type='radio' id='software-support-no' name='software-support' className='w-4 m-2' />
                         <label htmlFor="software-support-no" className='text-[#5F6266] text-sm'>No</label>
                     </div>
-                    <div className="flex items-center mb-6">
+                    <div className="flex items-center mb-6 mblres:w-[100%] mblres:text-sm">
                         <p className=" text-[15px] w-96 text-sm text-[#5F6266]">
                             Do you need desktops and laptops?
                         </p>
@@ -98,11 +98,11 @@ function PlanCard() {
                             In order for us to know if our Productivity, Connectivity or Techtility <br />Plan is the best for you we'll need to know who we are quoting.
                         </p>
                     </div>
-                    <div className="flex justify-center items-center flex-col mb-6 w-96">
+                    <div className="flex justify-center items-center flex-col mb-6 w-96 mblres:w-[100%]">
                         <p className=" text-[15px] text-sm text-[#5F6266] m-4">
                             Please enter your email*
                         </p>
-                        <Input type='email' placeholder='Email' id='email' name='email' className='rounded-xl border-[#0055FF] px-4' />
+                        <Input type='email' placeholder='Email' id='email' name='email' className='rounded-xl border-[#0055FF] px-4 ' />
                     </div>
                 </div>
             </>
@@ -131,7 +131,7 @@ function PlanCard() {
                             Please select between: 36 month, 24 month, or 12 month terms
                         </p>
                     </div>
-                    <div className="flex justify-center items-center flex-col mb-6 w-96">
+                    <div className="flex justify-center items-center flex-col mb-6 w-96 mblres:w-[100%]">
                         <Select>
                             <SelectTrigger className="max-w-96 rounded border-[#0055FF]">
                                 <SelectValue placeholder="Number of Months" />
@@ -182,8 +182,8 @@ function PlanCard() {
 
 
             {/* Card Heading and card */}
-            <h1 className=' text-4xl font-semibold'>Which plan is best for you?</h1>
-            <div className='px-32 py-10 border-2 border-black mt-10 rounded-[6px] w-[54rem]'>
+            <h1 className=' text-4xl font-semibold mblres:text-center'>Which plan is best for you?</h1>
+            <div className='px-32 py-10 border-2  border-black mt-10 rounded-[6px] mblres: w-[100%] mblres:px-16'>
                 {screenNum === 1 ? AmountOfUsers() : null}
                 {screenNum === 2 ? Requirements() : null}
                 {screenNum === 3 ? YourPlan() : null}

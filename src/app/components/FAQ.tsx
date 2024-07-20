@@ -65,7 +65,7 @@ const FAQ = () => {
                         // style={{ zIndex: 10 }} // Ensure div is on top
                         >
                             <div className='flex items-center'>
-                                <span className={`font-medium text-2xl ${expandedSection === 'section2' ? 'text-[#0055FF]' : 'text-[#81868E]'}`}>01</span>
+                                <span className={`font-medium text-2xl ${expandedSection === 'section2' ? 'text-[#0055FF]' : 'text-[#81868E]'}`}>02</span>
                                 <span className="ml-8 text-lg">Question 02</span>
                             </div>
                             <span

@@ -19,6 +19,7 @@ const config: Config = {
       },
     },
     extend: {
+     
       fontFamily: {
         sans: ['DM Sans', 'sans-serif'],
       },
