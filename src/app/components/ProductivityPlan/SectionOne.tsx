@@ -28,6 +28,7 @@ function SectionOne() {
                 </div>
                 <div className='w-1/2 mblres: ml-14 mblres:w-[80%] mblres:items-center'>
                     <Image alt='what is ANC' src={'/productivityPage/Frame 2085.png'} className='ml-4 mblres:h-36 mblres:w-64' width={800} height={800} />
+
                 </div>
             </div>
         </>
