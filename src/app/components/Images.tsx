@@ -1,9 +1,9 @@
 import React from 'react';
 import Image from 'next/image';
-import logo1 from '../../../public/Anz.png';
-import logo2 from '../../../public/est.png';
-import logo3 from '../../../public/nab.png';
-import logo4 from '../../../public/st.png';
+import logo1 from '../../../public/google-logo.png';
+import logo2 from '../../../public/godaddy-logo.png';
+import logo3 from '../../../public/ms-logo.png';
+import logo4 from '../../../public/pax8-logo.png';
 import logo5 from '../../../public/mac.png';
 import logo6 from '../../../public/amp.png';
 import logo7 from '../../../public/ing.png';
@@ -32,20 +32,26 @@ const Images = () => {
           <Image alt='' src={lineImage} />
         </div>
       ) : null}
-      <div className="flex flex-wrap justify-evenly gap-4 mt-4">
-        <div className="w-16 sm:w-20 opacity-20"><Image alt='' src={logo1} className=' grayscale' /></div>
-        <div className="w-16 sm:w-20 opacity-20"><Image alt='' src={logo2} className=' grayscale' /></div>
-        <div className="w-16 sm:w-20 opacity-20"><Image alt='' src={logo3} className=' grayscale' /></div>
-        <div className="w-16 sm:w-20 opacity-20"><Image alt='' src={logo4} className=' grayscale' /></div>
-        <div className="w-16 sm:w-20 opacity-20 mt-5"><Image alt='' src={logo5} className=' grayscale' /></div>
+      <div className="flex flex-wrap justify-evenly gap-4 mt-4 border-dotted border py-10">
+        <div className="w-16 sm:w-24 opacity-50"><Image alt='' src={logo1} className='' /></div>
+        <div className="w-16 sm:w-24 opacity-50"><Image alt='' src={logo2} className='' /></div>
+        <div className="w-16 sm:w-24 opacity-50 pt-2"><Image alt='' src={logo3} className='' /></div>
+        <div className="w-16 sm:w-16 opacity-50"><Image alt='' src={logo4} className='p-2 my-1 rounded-xl bg-slate-700' /></div>
+        <div className="w-16 sm:w-24 opacity-50"><Image alt='' src={logo1} className='' /></div>
+        <div className="w-16 sm:w-24 opacity-50"><Image alt='' src={logo2} className='' /></div>
+        <div className="w-16 sm:w-24 opacity-50 pt-2"><Image alt='' src={logo3} className='' /></div>
+        <div className="w-16 sm:w-16 opacity-50"><Image alt='' src={logo4} className='p-2 my-1 rounded-xl bg-slate-700' /></div>
+        <div className="w-16 sm:w-24 opacity-50"><Image alt='' src={logo1} className='' /></div>
+        <div className="w-16 sm:w-24 opacity-50"><Image alt='' src={logo2} className='' /></div>
+        {/* <div className="w-16 sm:w-20 opacity-20 mt-5"><Image alt='' src={logo5} className=' grayscale' /></div>
         <div className="w-16 sm:w-20 opacity-20"><Image alt='' src={logo6} className=' grayscale' /></div>
         <div className="w-16 sm:w-20 opacity-20"><Image alt='' src={logo7} className=' grayscale' /></div>
         <div className="w-16 sm:w-20 opacity-20"><Image alt='' src={logo8} className=' grayscale' /></div>
         <div className="w-16 sm:w-20 opacity-20"><Image alt='' src={logo9} className=' grayscale' /></div>
-        <div className="w-16 sm:w-20 opacity-20"><Image alt='' src={logo10} className=' grayscale' /></div>
+        <div className="w-16 sm:w-20 opacity-20"><Image alt='' src={logo10} className=' grayscale' /></div> */}
       </div>
 
-      <div className="flex flex-wrap justify-evenly gap-4 mt-8">
+      {/* <div className="flex flex-wrap justify-evenly gap-4 mt-8">
         <div className="w-12 sm:w-16 mt-3 opacity-10"><Image alt='' src={logo11} className=' grayscale' /></div>
         <div className="w-12 sm:w-16 opacity-35"><Image alt='' src={logo12} className=' grayscale' /></div>
         <div className="w-16 sm:w-20 mt-4 opacity-25"><Image alt='' src={logo13} className=' grayscale' /></div>
@@ -56,7 +62,7 @@ const Images = () => {
         <div className="w-16 sm:w-20 mt-3"><Image alt='' src={logo18} className=' grayscale' /></div>
         <div className="w-16 sm:w-20 mt-2 opacity-50"><Image alt='' src={logo19} className=' grayscale' /></div>
         <div className="w-12 sm:w-16 mt-3 opacity-50"><Image alt='' src={logo20} className=' grayscale' /></div>
-      </div>
+      </div> */}
     </>
   );
 }

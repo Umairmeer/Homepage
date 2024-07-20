@@ -14,18 +14,22 @@ function SectionOne() {
                     <p className='uppercase text-sm font-semibold m-1'>Who needs ANC?</p>
                     <Image alt='what is ANC' src={'/whoPage/Union (1).png'} width={120} height={100} />
                 </div>
-                <h1 className='text-center text-4xl font-semibold my-4'>Businesses that need IT that works for them — and a better way to get it.</h1>
-                <p className='text-[#81868E] py-6 text-sm text-center'>Your worry-free, all-inclusive Managed IT Solution</p>
+                <h1 className='text-center text-4xl font-semibold my-4'>
+
+                    We're Your Managed Solution Provider, extending your team's capabilities to manage every aspect of your business effectively.</h1>
+                <p className='text-[#81868E] py-6 text-sm text-center'>Your worry-free, all-inclusive Managed Solution.</p>
             </div>
 
             {/*Manage It section two*/}
             <div className='bg-[#00194C] max-w-screen-2xl m-auto flex h-[350px] mblres:flex-wrap '>
+
+            <div className='bg-[#00194C] max-w-screen-2xl m-auto flex h-[400px] mblres:flex-wrap'>
                 <div className='py-24 pl-20  w-1/2 my-auto'>
                     <h1 className=' text-white text-4xl font-semibold pb-2'>Complete Managed IT Solutions</h1>
                     <Image alt='what is ANC' src={'/whoPage/Group 2047.png'} width={160} height={160} />
                 </div>
                 <div className="w-full text-white text-lg px-56 py-16" >
-                    Managed IT service providers (MSPs) are essential to helping businesses operate. Yet most IT providers will handle only some aspects of your IT, leaving you to fill the gaps. And often their surprise costs can leave you hesitant to call for help. <br /><br /> At Cortavo, we're different. We provide complete managed IT solutions, and we're the only IT provider offering a variety of services under flat, all-inclusive service plans that consolidate your IT costs.
+                    Managed service providers (MSPs) are essential to helping business operate. Yet most MSP’s only handle one aspect of the company’s needs leaving you to fill in gaps or spend money on unknown factors. Often their surprise costs and lack of communication leave them to scatter for help.  <br /><br /> At ANC, we’re different. We provide a complete managed service solutions across all sectors of a company, we’re the only MSP helping businesses not only with company needs but helping them strategize and grow with the plans they purchase.
                 </div>
             </div>
 

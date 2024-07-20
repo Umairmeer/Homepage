@@ -7,6 +7,7 @@ import { Button } from "@/components/ui/button";
 import { TbBrandFacebook } from "react-icons/tb";
 import { SlSocialInstagram } from "react-icons/sl";
 import { BsTwitterX } from "react-icons/bs";
+import { FaLinkedinIn } from "react-icons/fa";
 import { usePathname } from 'next/navigation';
 
 const Footer = () => {
@@ -24,11 +25,11 @@ const Footer = () => {
             <div className='bg-bt2 text-white p-2 rounded-full'>
               <TbBrandFacebook />
             </div>
-            <div className='bg-bt2 text-white p-2 rounded-full'>
+            <div className='bg-bt2 cursor-pointer text-white p-2 rounded-full'>
               <SlSocialInstagram />
             </div>
-            <div className='bg-bt2 text-white p-2 rounded-full'>
-              <BsTwitterX />
+            <div className='bg-bt2 cursor-pointer text-white p-2 rounded-full'>
+              <FaLinkedinIn />
             </div>
           </div>
         </div>
@@ -48,8 +49,8 @@ const Footer = () => {
           <div className='text-white mb-4 text-lg'>Contact Us</div>
           <div className='text-white'>
             <div className='mb-2 mt-8'>anc@gmail.com</div>
-            <div className='mt-5 '>+1808 08 08</div>
-            <div className='mt-5'>123 12th St, ABC, USA</div>
+            <div className=' mt-5'>+1808 08 08</div>
+            <div className=' mt-5'>123 12th St, ABC, USA</div>
           </div>
         </div>
 

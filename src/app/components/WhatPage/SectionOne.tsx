@@ -13,8 +13,8 @@ export default function () {
           <p className='uppercase text-sm font-semibold m-1'>What is ANC?</p>
           <Image alt='what is ANC' src={'/whoPage/Union (1).png'} width={100} height={100} />
         </div>
-        <h1 className='text-center text-4xl font-semibold my-4'>IT Managed Services and so <br /> much more</h1>
-        <p className='text-[#81868E] py-6 text-sm text-center'>Your worry-free, all-inclusive Managed IT Solution</p>
+        <h1 className='text-center text-4xl font-semibold my-4'>Much more than your Average Managing Service Provider</h1>
+        <p className='text-[#81868E] py-6 text-sm text-center'>Your worry-free, all-inclusive managed resources.</p>
       </div>
 
       {/*Manage It section two*/}
