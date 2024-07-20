@@ -22,8 +22,6 @@ function SectionOne() {
 
             {/*Manage It section two*/}
             <div className='bg-[#00194C] max-w-screen-2xl m-auto flex h-[350px] mblres:flex-wrap '>
-
-            <div className='bg-[#00194C] max-w-screen-2xl m-auto flex h-[400px] mblres:flex-wrap'>
                 <div className='py-24 pl-20  w-1/2 my-auto'>
                     <h1 className=' text-white text-4xl font-semibold pb-2'>Complete Managed IT Solutions</h1>
                     <Image alt='what is ANC' src={'/whoPage/Group 2047.png'} width={160} height={160} />
@@ -72,7 +70,7 @@ function SectionOne() {
                             >
                                 <Image src={src} width={350} height={350} alt='' />
                                 {hoverIndex === index && (
-                                    <motion.div 
+                                    <motion.div
                                         className='absolute top-0 left-0 w-full h-full mblres:flex mblres:justify-center'
                                         initial={{ opacity: 0 }}
                                         animate={{ opacity: 1 }}
