@@ -181,7 +181,7 @@ const Navbar = () => {
                     <p onClick={() => router.push('/CTOplan')} className={"w-[100%] font-medium ml-5 my-3   px-2 py-2 " + (pathname === '/CTOplan' ? ' bg-[#0055FF] text-white' : '')}>Technology Plan</p>
                   </div>
                   <div>
-                    <p onClick={() => router.push('/CTOplan')} className={"w-[100%] font-medium ml-5 my-3   px-2 py-2 " + (pathname === '/CTOplan' ? ' bg-[#0055FF] text-white' : '')}>Full Solution Plan</p>
+                    <p onClick={() => router.push('/CEOplan')} className={"w-[100%] font-medium ml-5 my-3   px-2 py-2 " + (pathname === '/CEOplan' ? ' bg-[#0055FF] text-white' : '')}>Full Solution Plan</p>
                   </div>
 
 
