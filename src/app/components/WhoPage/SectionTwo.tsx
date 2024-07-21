@@ -16,7 +16,7 @@ function SectionTwo() {
                 <div className='m-auto flex justify-center'>
                     <Image alt='what is ANC' src={'/whoPage/Mask group (1).png'} width={400} height={400} />
 
-                    <div className='bg-slate-300 flex items-center justify-center flex-col w-2/3 rounded-r-xl'>
+                    <div className='bg-slate-300 flex items-center justify-center flex-col w-2/3 rounded-r-xl mblres:w-[100%]'>
                         <h1 className='  text-4xl font-semibold pb-2 max-w-xl text-center mblres:text-xl'>Find The Plan That is Right For Your Business</h1>
                         <Button className=' bg-[#0055FF] text-white hover:text-black px-8 py-6 text-lg rounded-xl m-10'>Get Help</Button>
                     </div>
@@ -35,8 +35,8 @@ function SectionTwo() {
                     <Image alt='what is ANC' src={'/whoPage/Union (1).png'} width={160} height={100} className=' absolute bottom-0 right-0 mblres:mr-14' />
                 </div>
             </div>
-            <div className='flex mblres:flex-col mblres:justify-center mblres:items-center mb-20 max-w-screen-2xl m-auto justify-center'>
-                <Image alt='what is ANC' className='' src={'/whoPage/Group 2072.png'} width={620} height={620} />
+            <div className='flex mblres:flex-col mblres:w-[80%]  mblres:justify-center mblres:items-center mb-20 max-w-screen-2xl m-auto justify-center'>
+                <Image alt='what is ANC' className='mblres:w-[100%]' src={'/whoPage/Group 2072.png'} width={620} height={620} />
                 {/* <Image alt='what is ANC' className=' pl-20' src={'/whoPage/Frame 2084.png'} width={620} height={620} /> */}
 
                 {/* Accordion */}

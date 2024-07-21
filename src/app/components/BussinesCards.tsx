@@ -89,11 +89,11 @@ const BussinesCards = () => {
           ]}
           className="w-full max-w-6xl"
         >
-          <CarouselContent>
+          <CarouselContent className='mblres:flex-col mblres:items-center'>
             {picsArr.map((elem, index) => (
               <CarouselItem key={index} className="md:basis-1/2 lg:basis-1/4 ">
                 <div
-                  className=" h-96 w-full text-white text-center text-xl py-4 my-10 rounded-xl px-12"
+                  className=" h-96 w-full text-white text-center text-xl py-4 my-10 rounded-xl px-12 mblres:w-[100%]"
                   style={{
                     backgroundImage: `url(${elem.url})`,
                     backgroundSize: 'cover',
@@ -104,8 +104,8 @@ const BussinesCards = () => {
               </CarouselItem>
             ))}
           </CarouselContent>
-          <CarouselPrevious />
-          <CarouselNext />
+          <CarouselPrevious className='mblres:hidden' />
+          <CarouselNext className='mblres:hidden' />
         </Carousel>
       </div>
 

@@ -39,7 +39,7 @@ function SectionTwo() {
                     <Image className='ml-8' alt='what is ANC' src={'/whatPage/Group 2060.png'} width={1200} height={1200} />
                 </div>
             </div>
-            <div className='w-full mb-20'>
+            <div className='w-full mb-20 mblres:w-[100%]'>
                 <Image className='m-auto' alt='what is ANC' src={'/whatPage/Frame 2078.png'} width={2000} height={2000} />
             </div>
         </>
