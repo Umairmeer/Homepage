@@ -14,7 +14,7 @@ function SectionOne() {
                     <p className='uppercase text-sm font-semibold m-1'>Who needs ANC?</p>
                     <Image alt='what is ANC' src={'/whoPage/Union (1).png'} width={120} height={100} />
                 </div>
-                <h1 className='text-center text-4xl font-semibold my-4'>
+                <h1 className='text-center text-4xl font-semibold my-4 mblres:text-2xl'>
 
                     We're Your Managed Solution Provider, extending your team's capabilities to manage every aspect of your business effectively.</h1>
                 <p className='text-[#81868E] py-6 text-sm text-center'>Your worry-free, all-inclusive Managed Solution.</p>

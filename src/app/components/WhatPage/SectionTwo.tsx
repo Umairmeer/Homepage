@@ -26,7 +26,7 @@ function SectionTwo() {
                         <div className='relative max-w-lg '>
                             <Image className='' alt='what is ANC' src={'/whatPage/Union.png'} width={46} height={46} />
                             <h1 className='text-4xl font-semibold ml-8 mblres:text-lg'>Management partner for Today’s workplace </h1>
-                            <Image className='absolute top-14 right-10 mblres:mt-5' alt='what is ANC' src={'/whatPage/Union (1).png'} width={160} height={160} />
+                            <Image className='absolute top-14 right-10 mblres:mt-12 mblres: ml-2' alt='what is ANC' src={'/whatPage/Union (1).png'} width={160} height={160} />
                         </div>
                         <p className='text-[#81868E] py-12 text-xl ml-8 mblres:text-sm mblres:w-[100%]'>Business is changing radically from traditional onsite to hybrid workplaces. Your office is growing more decentralized.
                             We can help secure your company from cyberattacks and enhance collaboration with cloud data storage. And if your road warriors experience technical setbacks, our unlimited IT service desk can assist them.</p>
