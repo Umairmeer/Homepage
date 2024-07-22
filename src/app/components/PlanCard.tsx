@@ -73,7 +73,7 @@ function PlanCard() {
                         <label htmlFor="software-support-no" className='text-[#5F6266] text-sm'>No</label>
                     </div>
                     <div className="flex items-center mb-6 mblres:w-[100%] mblres:text-sm">
-                        <p className=" text-[15px] w-96 text-sm text-[#5F6266]">
+                        <p className=" text-[15px] w-96 text-sm text-[#5F6266] ">
                             Do you already have staff in place to manage your Marketing?
                         </p>
                         <Input type='radio' defaultChecked={true} id='hardware-support-yes' name='hardware-support' className='w-4 m-2' />
@@ -83,7 +83,7 @@ function PlanCard() {
                         <label htmlFor="hardware-support-no" className='text-[#5F6266] text-sm'>No</label>
                     </div>
                     <div className="flex items-center mb-6">
-                        <p className=" text-[15px] w-96 text-sm text-[#5F6266]">
+                        <p className=" text-[15px] w-96 text-sm text-[#5F6266] mblres:w-[100%] mblres:text-sm">
                             Do you already have staff in place to manage your Business/ Administrative needs?
                         </p>
                         <Input type='radio' defaultChecked={true} id='adminNeeds-yes' name='adminNeeds' className='w-4 m-2' />

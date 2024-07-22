@@ -8,13 +8,14 @@ function SectionOne() {
 
     return (
         <>
+        
             {/*Manage It section one*/}
             <div className='max-w-2xl p-10 m-auto flex flex-col items-center justify-center '>
                 <div>
                     <p className='uppercase text-sm font-semibold m-1'>Who needs ANC?</p>
                     <Image alt='what is ANC' src={'/whoPage/Union (1).png'} width={120} height={100} />
                 </div>
-                <h1 className='text-center text-4xl font-semibold my-4'>
+                <h1 className='text-center text-4xl font-semibold my-4 mblres:text-2xl'>
 
                     We're Your Managed Solution Provider, extending your team's capabilities to manage every aspect of your business effectively.</h1>
                 <p className='text-[#81868E] py-6 text-sm text-center'>Your worry-free, all-inclusive Managed Solution.</p>
@@ -49,7 +50,7 @@ function SectionOne() {
                     <p className='text-[#81868E] py-6 text-lg text-center'>Managed IT service providers (MSPs) are essential to helping businesses operate. Yet most IT providers will handle only some aspects of your IT, leaving you to fill the gaps. And often their surprise costs can leave you hesitant to call for help.</p>
                 </div>
 
-                <div className='max-w-2xl rounded-xl m-auto bg-[#0055FF] text-white py-12 px-36 text-center text-lg mblres:p-4'>
+                <div className='max-w-2xl rounded-xl m-auto bg-[#0055FF] text-white py-12 px-36 text-center text-lg mblres:p-4 mblres:w-[100%]'>
                     At Cortavo, we're different. We provide complete managed IT solutions, and we're the only IT provider offering a variety of services under flat, all-inclusive service plans that consolidate your IT costs
                 </div>
             </div>
@@ -85,6 +86,7 @@ function SectionOne() {
                     </div>
                 </div>
             </div>
+           
         </>
     )
 }
