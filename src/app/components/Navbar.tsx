@@ -99,7 +99,7 @@ const Navbar = () => {
                       <NavigationMenuLink><Button onClick={() => router.push('/CEOplan')} className={"w-[100%] font-medium hover:text-white hover:bg-[#0055FF] bg-bgSilver1" + (pathname === '/CEOplan' ? ' text-white bg-[#0055FF]' : '')}>Full Solution Plan</Button></NavigationMenuLink>
                     </div>
                     <div>
-                      <NavigationMenuLink><Button onClick={() => router.push('/CEOplan')} className={"w-[100%] font-medium hover:text-white hover:bg-[#0055FF] bg-bgSilver1" + (pathname === '/CEOplan' ? ' text-white bg-[#0055FF]' : '')}>Ad hoc Solutions</Button></NavigationMenuLink>
+                      <NavigationMenuLink><Button onClick={() => router.push('/AdHocServices')} className={"w-[100%] font-medium hover:text-white hover:bg-[#0055FF] bg-bgSilver1" + (pathname === '/AdHocServices' ? ' text-white bg-[#0055FF]' : '')}>Ad hoc Solutions</Button></NavigationMenuLink>
                     </div>
                   </NavigationMenuContent>
                 </NavigationMenuItem>
@@ -189,7 +189,7 @@ const Navbar = () => {
                     <p onClick={() => router.push('/CEOplan')} className={"w-[100%] font-medium ml-5 my-3   px-2 py-2 " + (pathname === '/CEOplan' ? ' bg-[#0055FF] text-white' : '')}>Full Solution Plan</p>
                   </div>
                   <div>
-                    <p onClick={() => router.push('/CEOplan')} className={"w-[100%] font-medium ml-5 my-3   px-2 py-2 " + (pathname === '/CEOplan' ? ' bg-[#0055FF] text-white' : '')}>Ad hoc solutions</p>
+                    <p onClick={() => router.push('/AdHocServices')} className={"w-[100%] font-medium ml-5 my-3   px-2 py-2 " + (pathname === '/AdHocServices' ? ' bg-[#0055FF] text-white' : '')}>Ad hoc solutions</p>
                   </div>
 
 

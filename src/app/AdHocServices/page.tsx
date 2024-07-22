@@ -1,8 +1,8 @@
 'use client'
 import React from 'react'
 import Navbar from '../components/Navbar'
-import SectionOne from '../components/CMOplan/SectionOne'
-import CMOPlan from '../components/CMOplan/CMOplan'
+import SectionOne from '../components/AdHocServices/SectionOne'
+import Adhoc from '../components/AdHocServices/AdHoc'
 import PlanCard from '../components/PlanCard'
 import Images from '../components/Images'
 import FAQ from '../components/FAQ'
@@ -13,7 +13,7 @@ function page() {
         <>
             <Navbar />
             <SectionOne />
-            <CMOPlan />
+            <Adhoc />
             <PlanCard />
             {/* <Images/> */}
             <FAQ />

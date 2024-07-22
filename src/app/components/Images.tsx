@@ -38,13 +38,13 @@ const Images = () => {
         <div className="w-16 min-w-24 opacity-50"><Image alt='' src={logo3} className='' /></div>
         <div className="w-16 min-w-24 opacity-50"><Image alt='' src={logo4} className='p-2 my-1 rounded-xl bg-slate-700' /></div>
         <div className="w-16 min-w-24 opacity-50"><Image alt='' src={logo5} className='' /></div>
-        <div className="w-16 min-w-24 opacity-50"><Image alt='' src={logo6} className='' /></div>
+        {/* <div className="w-16 min-w-24 opacity-50"><Image alt='' src={logo6} className='' /></div> */}
         <div className="w-16 min-w-24 opacity-50"><Image alt='' src={logo1} className='' /></div>
         <div className="w-16 min-w-24 opacity-50"><Image alt='' src={logo2} className='' /></div>
         <div className="w-16 min-w-24 opacity-50"><Image alt='' src={logo3} className='' /></div>
         <div className="w-16 min-w-24 opacity-50"><Image alt='' src={logo4} className='p-2 my-1 rounded-xl bg-slate-700' /></div>
         <div className="w-16 min-w-24 opacity-50"><Image alt='' src={logo5} className='' /></div>
-        <div className="w-16 min-w-24 opacity-50"><Image alt='' src={logo6} className='' /></div>
+        {/* <div className="w-16 min-w-24 opacity-50"><Image alt='' src={logo6} className='' /></div> */}
         {/* <div className="w-16 sm:w-20 opacity-20 mt-5"><Image alt='' src={logo5} className=' grayscale' /></div>
         <div className="w-16 sm:w-20 opacity-20"><Image alt='' src={logo6} className=' grayscale' /></div>
         <div className="w-16 sm:w-20 opacity-20"><Image alt='' src={logo7} className=' grayscale' /></div>

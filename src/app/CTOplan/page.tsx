@@ -2,7 +2,7 @@
 import React from 'react'
 import Navbar from '../components/Navbar'
 import SectionOne from '../components/CTOplan/SectionOne'
-import TechtilityPlan from '../components/CTOplan/CTOplan'
+import CTOPlan from '../components/CTOplan/CTOplan'
 import PlanCard from '../components/PlanCard'
 import Images from '../components/Images'
 import FAQ from '../components/FAQ'
@@ -13,7 +13,7 @@ function page() {
         <>
             <Navbar />
             <SectionOne />
-            <TechtilityPlan />
+            <CTOPlan />
             <PlanCard/>
             {/* <Images/> */}
             <FAQ/>
