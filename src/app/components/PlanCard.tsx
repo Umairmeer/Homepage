@@ -199,19 +199,21 @@ function PlanCard() {
                 <div className='flex justify-center'>
                     {screenNum !== 1 ? (
                         <>
-                            <Button onClick={() => {
+                            <button onClick={() => {
+                                console.log(screenNum)
                                 if (screenNum === 1) return
                                 setScreenNum(screenNum - 1)
-                            }} className='border-[#0055FF] border rounded-xl text-[#0055FF] hover:text-white hover:bg-[#0055FF] px-14 py-6 text-md'>Back</Button>
+                            }} className='border-[#0055FF] border rounded-xl text-[#0055FF] hover:text-white hover:bg-[#0055FF] px-14 py-4 text-md'>Back</button>
                             <div className='m-2'></div>
                         </>
                     ) : null}
                     {screenNum !== 5 ? (
                         <>
-                            <Button onClick={() => {
+                            <button onClick={() => {
+                                console.log(screenNum)
                                 if (screenNum === 5) return
                                 setScreenNum(screenNum + 1)
-                            }} className='bg-[#0055FF] border rounded-xl text-white hover:border-[#0055FF] hover:text-[#0055FF] px-14 py-6 text-md'>Next</Button>
+                            }} className='bg-[#0055FF] border rounded-xl text-white hover:border-[#0055FF] hover:text-[#0055FF] mblres:hover:text-white px-14 py-4 text-md'>Next</button>
                         </>
                     ) : null}
 
