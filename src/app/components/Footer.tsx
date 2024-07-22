@@ -48,9 +48,9 @@ const Footer = () => {
         <div className='mb-8 md:mb-0 mt-24 md:w-1/4 text-center md:text-left'>
           <div className='text-white mb-4 text-lg'>Contact Us</div>
           <div className='text-white'>
-            <div className='mb-2 mt-8'>anc@gmail.com</div>
-            <div className=' mt-5'>+1808 08 08</div>
-            <div className=' mt-5'>123 12th St, ABC, USA</div>
+            <div className='mb-2 mt-8'>Info@agilenetworkingllc.com</div>
+            <div className=' mt-5'>+404 980 9340 </div>
+            <div className=' mt-5'>United States</div>
           </div>
         </div>
 

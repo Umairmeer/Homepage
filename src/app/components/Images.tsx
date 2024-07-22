@@ -4,8 +4,8 @@ import logo1 from '../../../public/google-logo.png';
 import logo2 from '../../../public/godaddy-logo.png';
 import logo3 from '../../../public/ms-logo.png';
 import logo4 from '../../../public/pax8-logo.png';
-import logo5 from '../../../public/mac.png';
-import logo6 from '../../../public/amp.png';
+import logo5 from '../../../public/toast-logo.png';
+import logo6 from '../../../public/crunch-logo.png';
 import logo7 from '../../../public/ing.png';
 import logo8 from '../../../public/suncorp.png';
 import logo9 from '../../../public/boq.png';
@@ -20,7 +20,7 @@ import logo17 from '../../../public/me.png';
 import logo18 from '../../../public/ubank.jpeg';
 import logo19 from '../../../public/pepper.png';
 import logo20 from '../../../public/latro.jpg';
-import lineImage from '../../../public/aa.jpg';
+import lineImage from '../../../public/aa.png';
 import { usePathname } from 'next/navigation';
 
 const Images = () => {
@@ -32,17 +32,19 @@ const Images = () => {
           <Image alt='' src={lineImage} />
         </div>
       ) : null}
-      <div className="flex flex-wrap justify-evenly gap-4 mt-4 border-dotted border py-10">
-        <div className="w-16 sm:w-24 opacity-50"><Image alt='' src={logo1} className='' /></div>
-        <div className="w-16 sm:w-24 opacity-50"><Image alt='' src={logo2} className='' /></div>
-        <div className="w-16 sm:w-24 opacity-50 pt-2"><Image alt='' src={logo3} className='' /></div>
-        <div className="w-16 sm:w-16 opacity-50"><Image alt='' src={logo4} className='p-2 my-1 rounded-xl bg-slate-700' /></div>
-        <div className="w-16 sm:w-24 opacity-50"><Image alt='' src={logo1} className='' /></div>
-        <div className="w-16 sm:w-24 opacity-50"><Image alt='' src={logo2} className='' /></div>
-        <div className="w-16 sm:w-24 opacity-50 pt-2"><Image alt='' src={logo3} className='' /></div>
-        <div className="w-16 sm:w-16 opacity-50"><Image alt='' src={logo4} className='p-2 my-1 rounded-xl bg-slate-700' /></div>
-        <div className="w-16 sm:w-24 opacity-50"><Image alt='' src={logo1} className='' /></div>
-        <div className="w-16 sm:w-24 opacity-50"><Image alt='' src={logo2} className='' /></div>
+      <div className="flex justify-evenly items-center gap-4 mt-4 border-dotted border py-10 mblres:overflow-scroll">
+        <div className="w-16 min-w-24 opacity-50"><Image alt='' src={logo1} className='' /></div>
+        <div className="w-16 min-w-24 opacity-50"><Image alt='' src={logo2} className='' /></div>
+        <div className="w-16 min-w-24 opacity-50"><Image alt='' src={logo3} className='' /></div>
+        <div className="w-16 min-w-24 opacity-50"><Image alt='' src={logo4} className='p-2 my-1 rounded-xl bg-slate-700' /></div>
+        <div className="w-16 min-w-24 opacity-50"><Image alt='' src={logo5} className='' /></div>
+        <div className="w-16 min-w-24 opacity-50"><Image alt='' src={logo6} className='' /></div>
+        <div className="w-16 min-w-24 opacity-50"><Image alt='' src={logo1} className='' /></div>
+        <div className="w-16 min-w-24 opacity-50"><Image alt='' src={logo2} className='' /></div>
+        <div className="w-16 min-w-24 opacity-50"><Image alt='' src={logo3} className='' /></div>
+        <div className="w-16 min-w-24 opacity-50"><Image alt='' src={logo4} className='p-2 my-1 rounded-xl bg-slate-700' /></div>
+        <div className="w-16 min-w-24 opacity-50"><Image alt='' src={logo5} className='' /></div>
+        <div className="w-16 min-w-24 opacity-50"><Image alt='' src={logo6} className='' /></div>
         {/* <div className="w-16 sm:w-20 opacity-20 mt-5"><Image alt='' src={logo5} className=' grayscale' /></div>
         <div className="w-16 sm:w-20 opacity-20"><Image alt='' src={logo6} className=' grayscale' /></div>
         <div className="w-16 sm:w-20 opacity-20"><Image alt='' src={logo7} className=' grayscale' /></div>

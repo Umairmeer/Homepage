@@ -12,7 +12,9 @@ function SectionOne() {
                     <Image alt='what is ANC' src={'/whoPage/Union (1).png'} className='' width={80} height={80} />
                 </div>
                 <h1 className='text-center text-4xl font-semibold my-4 max-w-xl'>Executive Partnership and Business Strategy</h1>
-                <Button className=' bg-[#0055FF] text-white hover:text-black px-8 py-6 text-lg rounded-xl m-10'>Let’s Talk</Button>
+                <Button onClick={() => {
+              alert('Our Contact +404 980 9340')
+            }} className=' bg-[#0055FF] text-white hover:text-black px-8 py-6 text-lg rounded-xl m-10'>Let’s Talk</Button>
             </div>
             {/* background image */}
             <div className='relative'>

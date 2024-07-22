@@ -15,7 +15,7 @@ function page() {
             <SectionOne />
             <ConnectivityPlan />
             <PlanCard/>
-            <Images/>
+            {/* <Images/> */}
             <FAQ/>
             <Footer />
         </>

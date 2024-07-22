@@ -105,7 +105,7 @@ function PlanCard() {
                     <p className='font-semibold text-lg text-[#00194C] text-center'>Show Me The Best Plan!</p>
                     <div className="flex items-center my-4">
                         <p className=" text-[15px] text-center text-sm text-[#5F6266]">
-                            In order for us to know if our CMO, CFO, CTO or CEO plan <brs/>Plan is the best for you we'll need to know who we are quoting.
+                            In order for us to know if our CMO, CFO, CTO or CEO plan <br/>Plan is the best for you we'll need to know who we are quoting.
                         </p>
                     </div>
                     <div className="flex justify-center items-center flex-col mb-6 w-96 mblres:w-[100%]">

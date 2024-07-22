@@ -28,8 +28,7 @@ function SectionTwo() {
                             <h1 className='text-4xl font-semibold ml-8 mblres:text-lg'>Management partner for Today’s workplace </h1>
                             <Image className='absolute top-14 right-10 mblres:mt-12 mblres: ml-2' alt='what is ANC' src={'/whatPage/Union (1).png'} width={160} height={160} />
                         </div>
-                        <p className='text-[#81868E] py-12 text-xl ml-8 mblres:text-sm mblres:w-[100%]'>Business is changing radically from traditional onsite to hybrid workplaces. Your office is growing more decentralized.
-                            We can help secure your company from cyberattacks and enhance collaboration with cloud data storage. And if your road warriors experience technical setbacks, our unlimited IT service desk can assist them.</p>
+                        <p className='text-[#81868E] py-12 text-xl ml-8 mblres:text-sm mblres:w-[100%]'>Business radically moves with the changes of technology and social media. We want to help create all-around services that will help create an automated workflow across all your current solutions and work streams in which we can create custom solutions or manage your current ones that will help deliver success for your customers.</p>
                         <Image className='ml-8' alt='what is ANC' src={'/whatPage/Frame 2059.png'} width={600} height={600} />
                     </div>
 

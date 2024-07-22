@@ -123,7 +123,9 @@ const Navbar = () => {
 
           {/* Get a Quote button */}
           <div className="ml-auto hidden sm:block">
-            <Button className="bg-btColor text-white rounded px-8 py-6 hover:text-black hover:border" variant="outline">Let's talk</Button>
+            <Button onClick={() => {
+              alert('Our Contact +404 980 9340')
+            }} className="bg-btColor text-white rounded px-8 py-6 hover:text-black hover:border" variant="outline">Let's talk</Button>
           </div>
         </div>
 

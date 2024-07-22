@@ -8,7 +8,7 @@ function SectionOne() {
 
     return (
         <>
-        
+
             {/*Manage It section one*/}
             <div className='max-w-2xl p-10 m-auto flex flex-col items-center justify-center '>
                 <div>
@@ -22,7 +22,7 @@ function SectionOne() {
             </div>
 
             {/*Manage It section two*/}
-            <div className='bg-[#00194C] max-w-screen-2xl m-auto flex h-[350px] mblres:flex-wrap '>
+            <div className='bg-[#00194C] max-w-screen-2xl m-auto flex h-[400px] mblres:flex-wrap '>
                 <div className='py-24 pl-20  w-1/2 my-auto'>
                     <h1 className=' text-white text-4xl font-semibold pb-2'>Complete Managed IT Solutions</h1>
                     <Image alt='what is ANC' src={'/whoPage/Group 2047.png'} width={160} height={160} />
@@ -51,7 +51,7 @@ function SectionOne() {
                 </div>
 
                 <div className='max-w-2xl rounded-xl m-auto bg-[#0055FF] text-white py-12 px-36 text-center text-lg mblres:p-4 mblres:w-[100%]'>
-                    At Cortavo, we're different. We provide complete managed IT solutions, and we're the only IT provider offering a variety of services under flat, all-inclusive service plans that consolidate your IT costs
+                    At ANC, we're different. We provide complete managed IT solutions, and we're the only IT provider offering a variety of services under flat, all-inclusive service plans that consolidate your IT costs
                 </div>
             </div>
 
@@ -86,7 +86,7 @@ function SectionOne() {
                     </div>
                 </div>
             </div>
-           
+
         </>
     )
 }

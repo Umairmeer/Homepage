@@ -38,10 +38,10 @@ const FAQ = () => {
                         >
                             <div className='flex items-center'>
                                 <span className={`font-medium text-2xl ${expandedSection === 'section1' ? 'text-[#0055FF]' : 'text-[#81868E]'}`}>01</span>
-                                <span className="ml-8 text-lg">Question 01</span>
+                                <span className="ml-8 text-md">1. What makes Agile Networking Consultants different from other managed service providers?</span>
                             </div>
                             <span
-                                className={`text-xl border translate-x-3 border-black text-center object-cover w-8 h-8 flex items-center justify-center rounded-full ${expandedSection === 'section1' ? 'bg-black text-white' : ''}`}
+                                className={`text-xl border translate-x-3 border-black text-center object-cover min-w-8 h-8 flex items-center justify-center rounded-full ${expandedSection === 'section1' ? 'bg-black text-white' : ''}`}
                             >
                                 {expandedSection === 'section1' ? '-' : '+'}
                             </span>
@@ -53,7 +53,8 @@ const FAQ = () => {
                             transition={{ duration: 0.3 }}
                             className="accordion-content pl-4 pr-4 py-2 text-[#666666] text-xs bg-white rounded-b-lg"
                         >
-                            <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident.</p>
+                            <p>Agile Networking Consultants stands out by offering a holistic approach to technology and business growth. Unlike traditional managed service providers that focus solely on IT support, we integrate strategic technology leadership, comprehensive marketing solutions, and financial management to drive business success. Our customer-driven approach ensures that all services are tailored to meet the unique needs and goals of each client, fostering long-term partnerships and growth.
+                            </p>
                         </motion.div>
                     </div>
 
@@ -66,10 +67,10 @@ const FAQ = () => {
                         >
                             <div className='flex items-center'>
                                 <span className={`font-medium text-2xl ${expandedSection === 'section2' ? 'text-[#0055FF]' : 'text-[#81868E]'}`}>02</span>
-                                <span className="ml-8 text-lg">Question 02</span>
+                                <span className="ml-8 text-md">2. How does Agile Networking Consultants ensure customer satisfaction and support?</span>
                             </div>
                             <span
-                                className={`text-xl border translate-x-3 border-black text-center object-cover w-8 h-8 flex items-center justify-center rounded-full ${expandedSection === 'section2' ? 'bg-black text-white' : ''}`}
+                                className={`text-xl border translate-x-3 border-black text-center object-cover min-w-8 h-8 flex items-center justify-center rounded-full ${expandedSection === 'section2' ? 'bg-black text-white' : ''}`}
                             >
                                 {expandedSection === 'section2' ? '-' : '+'}
                             </span>
@@ -81,7 +82,8 @@ const FAQ = () => {
                             transition={{ duration: 0.3 }}
                             className="accordion-content pl-4 pr-4 py-2 text-[#666666] text-xs bg-white rounded-b-lg"
                         >
-                            <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident.</p>
+                            <p>Customer satisfaction is at the heart of everything we do at Agile Networking Consultants. We offer personalized support and dedicated account managers for each client to ensure seamless communication and swift resolution of issues. Our proactive approach includes regular check-ins, performance reviews, and feedback loops to continuously improve our services and exceed customer expectations.
+                            </p>
                         </motion.div>
                     </div>
 
@@ -94,10 +96,10 @@ const FAQ = () => {
                         >
                             <div className='flex items-center'>
                                 <span className={`font-medium text-2xl ${expandedSection === 'section3' ? 'text-[#0055FF]' : 'text-[#81868E]'}`}>03</span>
-                                <span className="ml-8 text-lg">Question 03</span>
+                                <span className="ml-8 text-md">3. Are you just another marketing company?</span>
                             </div>
                             <span
-                                className={`text-xl border  translate-x-3 border-black text-center object-cover w-8 h-8 flex items-center justify-center rounded-full ${expandedSection === 'section3' ? 'bg-black text-white' : ''}`}
+                                className={`text-xl border  translate-x-3 border-black text-center object-cover min-w-8 h-8 flex items-center justify-center rounded-full ${expandedSection === 'section3' ? 'bg-black text-white' : ''}`}
                             >
                                 {expandedSection === 'section3' ? '-' : '+'}
                             </span>
@@ -109,7 +111,7 @@ const FAQ = () => {
                             transition={{ duration: 0.3 }}
                             className="accordion-content pl-4 pr-4 py-2 text-[#666666] text-xs bg-white rounded-b-lg"
                         >
-                            <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident.</p>
+                            <p> No, Agile Networking Consultants is much more than a marketing company. While we offer comprehensive marketing solutions, including social media management, SEO, and strategic marketing development, we also provide technology and financial management services. Our unique blend of CTO, CMO, CFO, and CEO services ensures that we support all aspects of your business, driving growth through integrated solutions.</p>
                         </motion.div>
                     </div>
 
@@ -122,10 +124,10 @@ const FAQ = () => {
                         >
                             <div className='flex items-center'>
                                 <span className={`font-medium text-2xl ${expandedSection === 'section4' ? 'text-[#0055FF]' : 'text-[#81868E]'}`}>04</span>
-                                <span className="ml-8 text-lg">Question 04</span>
+                                <span className="ml-8 text-md">4. How do you help businesses grow with your services?</span>
                             </div>
                             <span
-                                className={`text-xl border  translate-x-3 border-black text-center object-cover w-8 h-8 flex items-center justify-center rounded-full ${expandedSection === 'section4' ? 'bg-black text-white' : ''}`}
+                                className={`text-xl border  translate-x-3 border-black text-center object-cover min-w-8 h-8 flex items-center justify-center rounded-full ${expandedSection === 'section4' ? 'bg-black text-white' : ''}`}
                             >
                                 {expandedSection === 'section4' ? '-' : '+'}
                             </span>
@@ -137,7 +139,8 @@ const FAQ = () => {
                             transition={{ duration: 0.3 }}
                             className="accordion-content pl-4 pr-4 py-2 text-[#666666] text-xs bg-white rounded-b-lg"
                         >
-                            <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident.</p>
+                            <p>We help businesses grow by aligning our services with their strategic goals. Our CTO services enhance technology and automation, increasing efficiency and productivity. Our CMO services boost brand visibility and market reach through tailored marketing strategies. Our CFO services provide financial insights and planning for informed decision-making. Together, these services create a cohesive approach to driving business growth and success.
+                            </p>
                         </motion.div>
                     </div>
 
@@ -150,10 +153,10 @@ const FAQ = () => {
                         >
                             <div className='flex items-center'>
                                 <span className={`font-medium text-2xl ${expandedSection === 'section5' ? 'text-[#0055FF]' : 'text-[#81868E]'}`}>05</span>
-                                <span className="ml-8 text-lg">Question 05</span>
+                                <span className="ml-8 text-md">5. What is your approach to building long-term partnerships with customers?</span>
                             </div>
                             <span
-                                className={`text-xl border translate-x-3 border-black text-center object-cover w-8 h-8 flex items-center justify-center rounded-full ${expandedSection === 'section5' ? 'bg-black text-white' : ''}`}
+                                className={`text-xl border translate-x-3 border-black text-center object-cover min-w-8 h-8 flex items-center justify-center rounded-full ${expandedSection === 'section5' ? 'bg-black text-white' : ''}`}
                             >
                                 {expandedSection === 'section5' ? '-' : '+'}
                             </span>
@@ -165,7 +168,7 @@ const FAQ = () => {
                             transition={{ duration: 0.3 }}
                             className="accordion-content pl-4 pr-4 py-2 text-[#666666] text-xs bg-white rounded-b-lg"
                         >
-                            <p>Details about Question 05...</p>
+                            <p>At Agile Networking Consultants, we believe in growing with our customers. We focus on understanding their unique needs, challenges, and goals. Our collaborative approach involves working closely with clients to develop customized solutions and strategies that evolve with their business. By providing consistent value, ongoing support, and a commitment to their success, we build strong, long-term partnerships that foster mutual growth.</p>
                         </motion.div>
                     </div>
                 </div>

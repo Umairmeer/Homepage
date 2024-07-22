@@ -11,7 +11,7 @@ export default function () {
     <>
       <Navbar />
       <SectionOne />
-      <Images />
+      {/* <Images /> */}
       <SectionTwo />
       <Footer />
     </>

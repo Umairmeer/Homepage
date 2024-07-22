@@ -2,7 +2,7 @@ import React from 'react';
 import Image from 'next/image';
 import SocialMedia from '../../../public/app.png';
 import TailoredWebsites from '../../../public/tweb.png';
-import Inventory from '../../../public/inventry.png';
+import Inventory from '../../../public/inventory.jpg';
 import Email from '../../../public/email.png';
 import BusinessPlans from '../../../public/businessPlans.jpg';
 import ServiceImage from '../../../public/service.jpg';
@@ -76,7 +76,7 @@ const BussinesCards = () => {
         </div> */}
       </div>
 
-      <div className=' max-w-screen-2xl m-auto flex justify-center'>
+      <div className=' relative max-w-screen-2xl m-auto flex justify-center'>
         <Carousel
           opts={{
             align: "center",
@@ -89,11 +89,11 @@ const BussinesCards = () => {
           ]}
           className="w-full max-w-6xl"
         >
-          <CarouselContent className='mblres:flex-col mblres:items-center'>
+          <CarouselContent>
             {picsArr.map((elem, index) => (
               <CarouselItem key={index} className="md:basis-1/2 lg:basis-1/4 ">
                 <div
-                  className=" h-96 w-full text-white text-center text-xl py-4 my-10 rounded-xl px-12 mblres:w-[100%]"
+                  className=" h-96 w-full text-white text-center text-xl py-4 my-10 rounded-xl px-12"
                   style={{
                     backgroundImage: `url(${elem.url})`,
                     backgroundSize: 'cover',
@@ -104,8 +104,8 @@ const BussinesCards = () => {
               </CarouselItem>
             ))}
           </CarouselContent>
-          <CarouselPrevious className='mblres:hidden' />
-          <CarouselNext className='mblres:hidden' />
+          <CarouselPrevious  className=' mblres:hidden'/>
+          <CarouselNext className=' mblres:hidden'/>
         </Carousel>
       </div>
 

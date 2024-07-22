@@ -2,8 +2,10 @@ import React from 'react';
 import Image from 'next/image';
 import SliderImage from '../../../public/sliderimage-2.png';
 import { Button } from "@/components/ui/button";
+import { useRouter } from 'next/navigation';
 
 const Slider = () => {
+  const router = useRouter()
   return (
     <>
       <main className="flex flex-col-reverse lg:flex-row  items-center w-full mt-12 max-w-screen-2xl m-auto">
@@ -15,7 +17,7 @@ const Slider = () => {
           ANC consultants help you drive automation and optimization through marketing, <br className="hidden lg:block" />  technology and business strategy management. 
           </p>
           <div className="Buttons flex flex-col lg:flex-row gap-3 mt-4 lg:mt-6 items-center lg:items-start justify-center lg:justify-start">
-            <Button className="bg-btColor text-[#FFFFFF] rounded-xl h-9 py-6 px-6" variant="outline">
+            <Button onClick={() => router.push('/#userForm')} className="bg-btColor text-[#FFFFFF] rounded-xl h-9 py-6 px-6" variant="outline">
               <span className='text-[12px]'>GET A QUOTE</span>
             </Button>
             <Button className="bg-bt2 text-[#FFFFFF] rounded-xl h-9 py-6 px-6" variant="outline">
