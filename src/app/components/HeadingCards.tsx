@@ -2,8 +2,10 @@ import React from 'react'
 import Image from 'next/image'
 import BgImage from '../../../public/cardImg.png'
 import { Button } from "@/components/ui/button"
+import { useRouter } from 'next/navigation'
 
 const HeadingCards = () => {
+  const router = useRouter()
 
   return (
     <>
@@ -41,7 +43,7 @@ const HeadingCards = () => {
         </div>
 
         <div className='flex mt-8 justify-center pb-14'>
-          <Button className='bg-bt2 hover:text-white  text-[#FFFFFF] hover:border-[#0055FF] border-transparent rounded h-9 w-40' variant="outline" ><a href="/what#planCard">LET'S GET STARTED</a></Button>
+          <Button onClick={()=> router.push('/what#planCard')} className='bg-bt2 hover:text-white  text-[#FFFFFF] hover:border-[#0055FF] border-transparent rounded h-9 w-40' variant="outline" >LET'S GET STARTED</Button>
         </div>
       </main>
     </>

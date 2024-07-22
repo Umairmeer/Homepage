@@ -111,13 +111,13 @@ const Navbar = () => {
                   </NavigationMenuLink>
                 </NavigationMenuItem> */}
                 <NavigationMenuItem className="px-4">
-                  <NavigationMenuLink className="text-[#81868E] text-sm hover:text-gray-700 cursor-pointer">
-                    <a href="/#FAQ" className=" scroll-smooth">FAQs</a>
+                  <NavigationMenuLink onClick={() => router.push('/#FAQ')} className="text-[#81868E] text-sm hover:text-gray-700 cursor-pointer">
+                    FAQs
                   </NavigationMenuLink>
                 </NavigationMenuItem>
                 <NavigationMenuItem className="px-4">
-                  <NavigationMenuLink className="text-[#81868E] text-sm hover:text-gray-700 cursor-pointer">
-                    <a href="#contact" className=" scroll-smooth">About Us</a>
+                  <NavigationMenuLink onClick={() => router.push('/#contact')} className="text-[#81868E] text-sm hover:text-gray-700 cursor-pointer">
+                    About Us
                   </NavigationMenuLink>
                 </NavigationMenuItem>
               </NavigationMenuList>
