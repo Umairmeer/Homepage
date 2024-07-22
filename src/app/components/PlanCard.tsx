@@ -46,7 +46,7 @@ function PlanCard() {
                         }}
                     />
                     <div className="flex items-center ">
-                        <Input type='checkbox'  id='airplane-mode' className='w-4 m-4 ' />
+                        <Input type='checkbox' id='airplane-mode' className='w-4 m-4 ' />
                         <label className=" text-[15px] font-semibold pr-[15px] mt-1" htmlFor="airplane-mode">
                             Do you have more than 100 users?
                         </label>
@@ -105,7 +105,7 @@ function PlanCard() {
                     <p className='font-semibold text-lg text-[#00194C] text-center'>Show Me The Best Plan!</p>
                     <div className="flex items-center my-4">
                         <p className=" text-[15px] text-center text-sm text-[#5F6266]">
-                            In order for us to know if our Productivity, Connectivity or Techtility <br />Plan is the best for you we'll need to know who we are quoting.
+                            In order for us to know if our CMO, CFO, CTO or CEO plan <brs/>Plan is the best for you we'll need to know who we are quoting.
                         </p>
                     </div>
                     <div className="flex justify-center items-center flex-col mb-6 w-96 mblres:w-[100%]">
