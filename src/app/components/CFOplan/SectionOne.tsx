@@ -24,9 +24,9 @@ function SectionOne() {
             {/* Security and Support */}
             <div className=' max-w-screen-2xl m-auto  p-8 flex mblres:flex-col-reverse mblres:p-0'>
                 <div className='w-1/2 p-10 pl-20  flex flex-col  justify-center mblres:w-[100%]'>
-                    <h1 className='text-4xl font-bold p-1 mblres:text-center'>Connect Your Team</h1>
+                    <h1 className='text-4xl font-bold p-1 mblres:text-center'>Strategic Financial Management for Sustainable Growth</h1>
                     <Image alt='what is ANC' src={'/whoPage/Union (1).png'} className='ml-4' width={160} height={160} />
-                    <p className=' text-[#909090] text-lg max-w-md py-10'>Keep your existing computers and get your office connected with new networking equipment and high-speed internet, plus cloud data storage. Perfect for businesses that need to connect 10 or more employees.</p>
+                    <p className=' text-[#909090] text-lg max-w-md py-10'>At Agile Networking Consultants, our CFO services are designed to provide you with expert financial guidance and strategic planning. We help you evaluate company goals, offer accurate financial projections, and assist in making informed decisions that drive long-term growth. Our services extend to advanced bookkeeping with cutting-edge software solutions, streamlining your financial operations and enhancing accuracy. With our comprehensive financial support, you gain valuable insights and a clear financial roadmap, ensuring your business remains financially healthy and poised for success.</p>
                 </div>
                 <div className='w-1/2 mblres: ml-14 mblres:w-[80%] mblres:items-center'>
                     <Image alt='what is ANC' src={'/productivityPage/Frame 2085.png'} className='ml-4 mblres:h-36 mblres:w-64 ' width={800} height={800} />

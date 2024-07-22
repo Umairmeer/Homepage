@@ -105,7 +105,7 @@ function PlanCard() {
                     <p className='font-semibold text-lg text-[#00194C] text-center'>Show Me The Best Plan!</p>
                     <div className="flex items-center my-4">
                         <p className=" text-[15px] text-center text-sm text-[#5F6266]">
-                            In order for us to know if our CMO, CFO, CTO or CEO plan <br/>Plan is the best for you we'll need to know who we are quoting.
+                            In order for us to know if our CMO, CFO, CTO or CEO plan <br />Plan is the best for you we'll need to know who we are quoting.
                         </p>
                     </div>
                     <div className="flex justify-center items-center flex-col mb-6 w-96 mblres:w-[100%]">
@@ -213,7 +213,7 @@ function PlanCard() {
                                 console.log(screenNum)
                                 if (screenNum === 5) return
                                 setScreenNum(screenNum + 1)
-                            }} className='bg-[#0055FF] border rounded-xl text-white hover:border-[#0055FF] hover:text-[#0055FF] mblres:hover:text-white px-14 py-4 text-md'>Next</button>
+                            }} className='bg-[#0055FF] border rounded-xl text-white hover:border-[#0055FF] hover:text-[#0055FF] mblres:hover:text-white px-14 py-4 text-md'><span>Next</span></button>
                         </>
                     ) : null}
 

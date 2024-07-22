@@ -41,17 +41,18 @@ function SectionOne() {
 
                 {/* boy's picture */}
                 <div className='relative max-w-screen-2xl mblres:hidden '>
-                    <Image alt='bg faded divs' src={'/whoPage/Mask group.png'} width={260} height={260} className='absolute top-30 right-0 mblres:right-14 mblres:bottom-8 mblres:h-64 mblres:mt-28' />
+                    <Image alt='bg faded divs' src={'/whoPage/Mask group.png'} width={260} height={260} className='absolute top-60 right-0 mblres:right-14 mblres:bottom-8 mblres:h-64 mblres:mt-28' />
                 </div>
 
                 {/* support section */}
                 <div className='max-w-3xl m-auto mt-28 mblres:mt-24'>
                     <h1 className='text-center text-4xl font-semibold my-4'>We Support</h1>
-                    <p className='text-[#81868E] py-6 text-lg text-center'>Managed IT service providers (MSPs) are essential to helping businesses operate. Yet most IT providers will handle only some aspects of your IT, leaving you to fill the gaps. And often their surprise costs can leave you hesitant to call for help.</p>
+                    <p className='text-[#81868E] py-6 text-lg text-center'>In today's fast-paced business environment, having reliable and comprehensive support across all facets of your business is crucial. Many managed service providers (MSPs) only handle specific aspects, leaving gaps that you must fill, and unexpected costs can make you hesitant to seek help.</p>
+                    <p className='text-[#81868E] py-6 text-lg text-center'>In addition to our tailored service packages, we also complete custom ad hoc assignments to address specific challenges and projects as they arise. Whether you need strategic technology enhancements, comprehensive marketing strategies, or expert financial management, ANC is your partner dedicated to delivering seamless, end-to-end support. We empower your business to focus on growth and innovation with confidence.</p>
                 </div>
 
                 <div className='max-w-2xl rounded-xl m-auto bg-[#0055FF] text-white py-12 px-36 text-center text-lg mblres:p-4 mblres:w-[100%]'>
-                    At ANC, we're different. We provide complete managed IT solutions, and we're the only IT provider offering a variety of services under flat, all-inclusive service plans that consolidate your IT costs
+                At Agile Networking Consultants (ANC), we're different. We provide complete, integrated solutions that cover every aspect of your business needs, from IT to marketing to financial management. Our all-inclusive service plans offer a flat-rate structure, eliminating surprise costs and providing you with predictable, consolidated expenses.
                 </div>
             </div>
 
