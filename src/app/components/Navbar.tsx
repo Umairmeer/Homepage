@@ -87,16 +87,19 @@ const Navbar = () => {
                   <NavigationMenuTrigger className="text-[#81868E]">ANC Plans</NavigationMenuTrigger>
                   <NavigationMenuContent>
                     <div>
-                      <NavigationMenuLink><Button onClick={() => router.push('/CMOplan')} className={"w-[100%] font-medium hover:text-white hover:bg-[#0055FF] bg-bgSilver1" + (pathname === '/CMOplan' ? ' text-white bg-[#0055FF]' : '')}>Marketing Plan</Button></NavigationMenuLink>
-                    </div>
-                    <div>
-                      <NavigationMenuLink><Button onClick={() => router.push('/CFOplan')} className={"w-[100%] font-medium hover:text-white hover:bg-[#0055FF] bg-bgSilver1" + (pathname === '/CFOplan' ? ' text-white bg-[#0055FF]' : '')}>Ad Hoc services</Button></NavigationMenuLink>
-                    </div>
-                    <div>
                       <NavigationMenuLink><Button onClick={() => router.push('/CTOplan')} className={"w-[100%] font-medium hover:text-white hover:bg-[#0055FF] bg-bgSilver1" + (pathname === '/CTOplan' ? ' text-white bg-[#0055FF]' : '')}>Technology Plan</Button></NavigationMenuLink>
                     </div>
                     <div>
+                      <NavigationMenuLink><Button onClick={() => router.push('/CFOplan')} className={"w-[100%] font-medium hover:text-white hover:bg-[#0055FF] bg-bgSilver1" + (pathname === '/CFOplan' ? ' text-white bg-[#0055FF]' : '')}>Financial Plan</Button></NavigationMenuLink>
+                    </div>
+                    <div>
+                      <NavigationMenuLink><Button onClick={() => router.push('/CMOplan')} className={"w-[100%] font-medium hover:text-white hover:bg-[#0055FF] bg-bgSilver1" + (pathname === '/CMOplan' ? ' text-white bg-[#0055FF]' : '')}>Marketing Plan</Button></NavigationMenuLink>
+                    </div>
+                    <div>
                       <NavigationMenuLink><Button onClick={() => router.push('/CEOplan')} className={"w-[100%] font-medium hover:text-white hover:bg-[#0055FF] bg-bgSilver1" + (pathname === '/CEOplan' ? ' text-white bg-[#0055FF]' : '')}>Full Solution Plan</Button></NavigationMenuLink>
+                    </div>
+                    <div>
+                      <NavigationMenuLink><Button onClick={() => router.push('/CEOplan')} className={"w-[100%] font-medium hover:text-white hover:bg-[#0055FF] bg-bgSilver1" + (pathname === '/CEOplan' ? ' text-white bg-[#0055FF]' : '')}>Ad hoc Solutions</Button></NavigationMenuLink>
                     </div>
                   </NavigationMenuContent>
                 </NavigationMenuItem>
@@ -177,13 +180,16 @@ const Navbar = () => {
                     <p onClick={() => router.push('/CMOplan')} className={"w-[100%] ml-5 my-3 font-medium   px-2 py-2 " + (pathname === '/CMOplan' ? ' bg-[#0055FF] text-white' : '')}>Marketing Plan</p>
                   </div>
                   <div>
-                    <p onClick={() => router.push('/CFOplan')} className={"w-[100%] font-medium ml-5 my-3    px-2 py-2" + (pathname === '/CFOplan' ? ' bg-[#0055FF] text-white' : '')}>Ad Hoc services</p>
+                    <p onClick={() => router.push('/CFOplan')} className={"w-[100%] font-medium ml-5 my-3    px-2 py-2" + (pathname === '/CFOplan' ? ' bg-[#0055FF] text-white' : '')}>Financial Plan</p>
                   </div>
                   <div>
                     <p onClick={() => router.push('/CTOplan')} className={"w-[100%] font-medium ml-5 my-3   px-2 py-2 " + (pathname === '/CTOplan' ? ' bg-[#0055FF] text-white' : '')}>Technology Plan</p>
                   </div>
                   <div>
                     <p onClick={() => router.push('/CEOplan')} className={"w-[100%] font-medium ml-5 my-3   px-2 py-2 " + (pathname === '/CEOplan' ? ' bg-[#0055FF] text-white' : '')}>Full Solution Plan</p>
+                  </div>
+                  <div>
+                    <p onClick={() => router.push('/CEOplan')} className={"w-[100%] font-medium ml-5 my-3   px-2 py-2 " + (pathname === '/CEOplan' ? ' bg-[#0055FF] text-white' : '')}>Ad hoc solutions</p>
                   </div>
 
 
