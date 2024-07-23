@@ -9,8 +9,10 @@ import { SlSocialInstagram } from "react-icons/sl";
 import { BsTwitterX } from "react-icons/bs";
 import { FaLinkedinIn } from "react-icons/fa";
 import { usePathname } from 'next/navigation';
+import { useRouter } from 'next/navigation';
 
 const Footer = () => {
+  const router = useRouter()
   const path = usePathname()
   return (
     <div id='contact' className='bg-[#00194C] py-8 px-4 sm:px-8 md:px-12 lg:px-16 mt-32 lg:mt-0 '> {/* Add margin-top on mobile screens */}
@@ -22,13 +24,13 @@ const Footer = () => {
           </div>
 
           <div className='flex justify-center mt-16 md:justify-start gap-3'>
-            <div className='bg-bt2 text-white p-2 rounded-full'>
+            <div onClick={() => window.open('https://www.facebook.com/share/xrC12Qn6EiyLVJdH/?mibextid=LQQJ4d/', '_blank')} className='bg-bt2 hover:bg-transparent hover:border border cursor-pointer text-white p-2 rounded-full'>
               <TbBrandFacebook />
             </div>
-            <div className='bg-bt2 cursor-pointer text-white p-2 rounded-full'>
+            <div onClick={() => window.open('https://www.instagram.com/agile_networking?igsh=MWVrZWpndzlxa29wcA%3D%3D&utm_source=qr/', '_blank')} className='bg-bt2 hover:bg-transparent hover:border border cursor-pointer text-white p-2 rounded-full'>
               <SlSocialInstagram />
             </div>
-            <div className='bg-bt2 cursor-pointer text-white p-2 rounded-full'>
+            <div onClick={() => window.open('https://www.linkedin.com/company/agile-networking-llc/', '_blank')} className='bg-bt2 hover:bg-transparent hover:border border cursor-pointer text-white p-2 rounded-full'>
               <FaLinkedinIn />
             </div>
           </div>
@@ -38,9 +40,9 @@ const Footer = () => {
         <div className='mb-8 md:mb-0 md:w-1/4 mt-24 text-center md:text-left'>
           <div className='text-white mb-4 text-lg'>Company</div>
           <div className='text-white'>
-            <div className='mb-2 mt-8'>Home</div>
-            <div className='mt-5'>Pages</div>
-            <div className='mt-5'>About Us</div>
+            <div onClick={() => router.push('/')} className=' cursor-pointer mb-2 mt-8'>Home</div>
+            <div onClick={() => router.push('/what#planCard')} className=' cursor-pointer mt-5'>Plan Card</div>
+            <div onClick={() => router.push('/#contact')} className=' cursor-pointer mt-5'>About Us</div>
           </div>
         </div>
 
@@ -74,7 +76,7 @@ const Footer = () => {
       <div className='flex justify-center mt-14 '>
         <div className='text-white text-center'>&copy; Copyright Agile Network Consultation 2024</div>
       </div>
-    </div>
+    </div >
   );
 };
 

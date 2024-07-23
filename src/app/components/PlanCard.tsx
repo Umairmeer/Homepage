@@ -2,7 +2,6 @@ import React, { useState } from 'react'
 import Image from 'next/image'
 import MultiRangeSlider from "multi-range-slider-react";
 import { Input } from '@/components/ui/input';
-import { Button } from "@/components/ui/button"
 
 import {
     Select,
@@ -213,7 +212,7 @@ function PlanCard() {
                                 console.log(screenNum)
                                 if (screenNum === 5) return
                                 setScreenNum(screenNum + 1)
-                            }} className='bg-[#0055FF] border rounded-xl text-white hover:border-[#0055FF] hover:text-[#0055FF] mblres:hover:text-white px-14 py-4 text-md'><span>Next</span></button>
+                            }} className='bg-[#0055FF] border rounded-xl text-white hover:border-[#0055FF] hover:text-[#0055FF] hover:bg-white mblres:hover:text-white px-14 py-4 text-md'><span>Next</span></button>
                         </>
                     ) : null}
 

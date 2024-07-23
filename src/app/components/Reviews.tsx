@@ -16,10 +16,10 @@ const Reviews = () => {
             Client Satisfaction <span className='text-[#81868E]'>is a focus at ANC</span>
           </p>
 
-          <div className="Button flex items-center h-11 border rounded-xl p-4 border-[#0055FF] mt-4 sm:mt-0">
+          {/* <div className="Button flex items-center h-11 border rounded-xl p-4 border-[#0055FF] mt-4 sm:mt-0">
             View more
             <div className='w-2 ml-2'><Image src={ArrowImage} alt='Arrow' /></div>
-          </div>
+          </div> */}
         </div>
 
         <div className='reviews mt-20'>

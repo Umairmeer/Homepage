@@ -15,20 +15,24 @@ export default function () {
                     {/* <Image alt='what is ANC' src={'/productivityPage/Group 39536.png'} className='ml-4' width={1200} height={1200} /> */}
                     <div className='border-2 border-dotted rounded-xl border-blue-600 p-10 bg-white'>
                         <table>
-                            <th className='text-2xl underline p-6 uppercase font-bold'>Adhoc Services </th>
-                            <tr>
-                                <tr className='text-center border-y hover:bg-blue-600 hover:text-white transition-all duration-300 cursor-pointer font-semibold'><td className='p-2'>Inventory Management</td></tr>
-                                <tr className='text-center border-y hover:bg-blue-600 hover:text-white transition-all duration-300 cursor-pointer font-semibold'><td className='p-2'>Tailored Websites</td></tr>
-                                <tr className='text-center border-y hover:bg-blue-600 hover:text-white transition-all duration-300 cursor-pointer font-semibold'><td className='p-2'>App Creation</td></tr>
-                                <tr className='text-center border-y hover:bg-blue-600 hover:text-white transition-all duration-300 cursor-pointer font-semibold'><td className='p-2'>Website development</td></tr>
-                                <tr className='text-center border-y hover:bg-blue-600 hover:text-white transition-all duration-300 cursor-pointer font-semibold'><td className='p-2'>Bot Creation </td></tr>
-                                <tr className='text-center border-y hover:bg-blue-600 hover:text-white transition-all duration-300 cursor-pointer font-semibold'><td className='p-2'>Custom Automation </td></tr>
-                                <tr className='text-center border-y hover:bg-blue-600 hover:text-white transition-all duration-300 cursor-pointer font-semibold'><td className='p-2'>Augmented reality development  </td></tr>
-                                <tr className='text-center border-y hover:bg-blue-600 hover:text-white transition-all duration-300 cursor-pointer font-semibold'><td className='p-2'>IT Networking Guidance and deployment </td></tr>
-                                <tr className='text-center border-y hover:bg-blue-600 hover:text-white transition-all duration-300 cursor-pointer font-semibold'><td className='p-2'>Non-Profit and EDU licensing for Microsoft </td></tr>
-                                <tr className='text-center border-y hover:bg-blue-600 hover:text-white transition-all duration-300 cursor-pointer font-semibold'><td className='p-2'>Microsoft and Google SaaS licenses  </td></tr>
-                                <tr className='text-center border-y hover:bg-blue-600 hover:text-white transition-all duration-300 cursor-pointer font-semibold'><td className='p-2'>Training on current solutions </td></tr>
-                            </tr>
+                            <thead>
+                                <tr>
+                                    <th className='text-2xl underline p-6 uppercase font-bold'>Adhoc Services</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr className='text-center border-y hover:bg-blue-600 hover:text-white transition-all duration-300 font-semibold'><td className='p-2'>Inventory Management</td></tr>
+                                <tr className='text-center border-y hover:bg-blue-600 hover:text-white transition-all duration-300 font-semibold'><td className='p-2'>Tailored Websites</td></tr>
+                                <tr className='text-center border-y hover:bg-blue-600 hover:text-white transition-all duration-300 font-semibold'><td className='p-2'>App Creation</td></tr>
+                                <tr className='text-center border-y hover:bg-blue-600 hover:text-white transition-all duration-300 font-semibold'><td className='p-2'>Website development</td></tr>
+                                <tr className='text-center border-y hover:bg-blue-600 hover:text-white transition-all duration-300 font-semibold'><td className='p-2'>Bot Creation </td></tr>
+                                <tr className='text-center border-y hover:bg-blue-600 hover:text-white transition-all duration-300 font-semibold'><td className='p-2'>Custom Automation </td></tr>
+                                <tr className='text-center border-y hover:bg-blue-600 hover:text-white transition-all duration-300 font-semibold'><td className='p-2'>Augmented reality development  </td></tr>
+                                <tr className='text-center border-y hover:bg-blue-600 hover:text-white transition-all duration-300 font-semibold'><td className='p-2'>IT Networking Guidance and deployment </td></tr>
+                                <tr className='text-center border-y hover:bg-blue-600 hover:text-white transition-all duration-300 font-semibold'><td className='p-2'>Non-Profit and EDU licensing for Microsoft </td></tr>
+                                <tr className='text-center border-y hover:bg-blue-600 hover:text-white transition-all duration-300 font-semibold'><td className='p-2'>Microsoft and Google SaaS licenses  </td></tr>
+                                <tr className='text-center border-y hover:bg-blue-600 hover:text-white transition-all duration-300 font-semibold'><td className='p-2'>Training on current solutions </td></tr>
+                            </tbody>
                         </table>
                     </div>
                 </div>
